@@ -1,0 +1,124 @@
+#!/bin/sh
+
+OUTDIR="osm"
+N=0
+CACHE_KEEP=0
+CACHE_DEL=0
+FIX_BOUNDS=0
+OPTS=""
+
+help() {
+  echo "Usage:"
+  echo "-o <dir>: output dir"
+  echo "-b <lon:lat:LON:LAT>: box"
+  echo "-k: keep files"
+  echo "-d: delete cached files"
+  echo "-f: calc bounds, fix for some versions of osmosis"
+  echo "-n <integer>: technical option"
+  echo
+  echo "Example:"
+  echo "$0 -o cache/osm-data -b 30:40:50:60 -d"
+  exit 1
+}
+
+boxget() {
+  printf "%.8f" `echo $1 | cut -f$2 -d':'`
+}
+
+avg() {
+  printf "%.8f" `echo "scale=8; ($1+$2)/2" | bc`
+}
+
+if [ $# -eq 0 ]; then
+  help
+fi
+
+while getopts "o:b:n:kfd" optname
+do
+  case "$optname" in
+    "o")
+      OUTDIR="$OPTARG"
+      ;;
+    "b")
+      BOX="$OPTARG"
+      ;;
+    "n")
+      N="$OPTARG"
+      ;;
+    "k")
+      CACHE_KEEP=1
+      OPTS="$OPTS -k"
+      ;;
+    "d")
+      CACHE_DEL=1
+      OPTS="$OPTS -d"
+      ;;
+    "f")
+      FIX_BOUNDS=1
+      OPTS="$OPTS -f"
+      ;;
+    "*")
+      help
+      ;;
+  esac
+done
+
+LONMIN=`boxget $BOX 1`
+LATMIN=`boxget $BOX 2`
+LONMAX=`boxget $BOX 3`
+LATMAX=`boxget $BOX 4`
+
+FILE="$OUTDIR/lon${LONMIN}_${LONMAX}lat${LATMIN}_${LATMAX}.osm"
+TMPFILE="$OUTDIR/tmp.osm"
+BOX=`echo $BOX | sed 's/:/,/g'`
+MSG=`echo $BOX | sed 's/,/:/' | sed 's/,/x/' | sed 's/,/:/'`
+
+mkdir -p $OUTDIR
+
+if [ -e $FILE ]; then
+  echo "$N: $MSG exists"
+else
+  wget http://api.openstreetmap.fr/xapi-without-meta?map?bbox=$BOX -O $FILE -q
+  if [ $? -ne 0 ]; then
+    echo "$N: wget $MSG failed"
+    rm $FILE
+    LONAVG=`avg $LONMIN $LONMAX`
+    LATAVG=`avg $LATMIN $LATMAX`
+    NN=`echo "$N+1" | bc`
+    $0 -b $LONMIN:$LATMIN:$LONAVG:$LATAVG -o $OUTDIR -n $NN $OPTS
+    $0 -b $LONMIN:$LATAVG:$LONAVG:$LATMAX -o $OUTDIR -n $NN $OPTS
+    $0 -b $LONAVG:$LATMIN:$LONMAX:$LATAVG -o $OUTDIR -n $NN $OPTS
+    $0 -b $LONAVG:$LATAVG:$LONMAX:$LATMAX -o $OUTDIR -n $NN $OPTS
+    echo "$N: merging $MSG"
+    osmosis \
+      --rx $OUTDIR/lon${LONMIN}_${LONAVG}lat${LATMIN}_${LATAVG}.osm \
+      --rx $OUTDIR/lon${LONMIN}_${LONAVG}lat${LATAVG}_${LATMAX}.osm \
+      --rx $OUTDIR/lon${LONAVG}_${LONMAX}lat${LATMIN}_${LATAVG}.osm \
+      --rx $OUTDIR/lon${LONAVG}_${LONMAX}lat${LATAVG}_${LATMAX}.osm \
+      --merge --merge --merge \
+      --wx $TMPFILE 2> /dev/null
+    if [ $CACHE_KEEP -eq 0 ]; then
+      rm \
+        $OUTDIR/lon${LONMIN}_${LONAVG}lat${LATMIN}_${LATAVG}.osm \
+        $OUTDIR/lon${LONMIN}_${LONAVG}lat${LATAVG}_${LATMAX}.osm \
+        $OUTDIR/lon${LONAVG}_${LONMAX}lat${LATMIN}_${LATAVG}.osm \
+        $OUTDIR/lon${LONAVG}_${LONMAX}lat${LATAVG}_${LATMAX}.osm
+    fi
+  else
+    echo "$N: wgot $MSG"
+    echo "$N: sorting $MSG"
+    osmosis --rx $FILE --sort type="TypeThenId" --wx $TMPFILE 2> /dev/null
+  fi
+  if [ $FIX_BOUNDS -eq 0 ]; then
+    mv $TMPFILE $FILE
+  else
+    echo "$N: writing bounds to $MSG"
+    head -n 2 $TMPFILE > $FILE
+    printf " <bounds minlat=\"%.7f\" minlon=\"%.7f\" maxlat=\"%.7f\" maxlon=\"%.7f\"/>\n" \
+      $LATMIN $LONMIN $LATMAX $LONMAX >> $FILE
+    tail -n+3 $TMPFILE >> $FILE
+    rm $TMPFILE
+  fi
+  echo "$N: $MSG done"
+fi
+exit 0

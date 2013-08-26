@@ -1,0 +1,23 @@
+#!/bin/sh
+
+help() {
+  echo "Usage:"
+  echo "$0 lon1 lat1 lon2 lat2"
+  echo "lon1-lat1 - bottom left corner"
+  echo "lon2-lat2 - top right corner"
+  echo
+  echo "Example:"
+  echo "$0 30 40 50 60"
+  exit 1
+}
+
+if [ $# -eq 0 ]; then
+  help
+fi
+
+export lon=$1
+export lat=$2
+export LON=$3
+export LAT=$4
+
+make -f Makefile.osgart -j 4

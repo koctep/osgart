@@ -1,0 +1,118 @@
+#POLY		:= novosibirsk
+#POLY_FILE	:= $(shell find poly -name $(POLY).poly | head -n 1)
+lat		:= $(shell printf '%.8f' $(lat))
+lon		:= $(shell printf '%.8f' $(lon))
+LAT		:= $(shell printf '%.8f' $(LAT))
+LON		:= $(shell printf '%.8f' $(LON))
+TOPOBOX		:= $(shell printf 'lon%.2f_%.2flat%.2f_%.2f' $(lon) $(LON) $(lat) $(LAT))
+OSMBOX		:= $(shell printf 'lon%.8f_%.8flat%.8f_%.8f' $(lon) $(LON) $(lat) $(LAT))
+GMAPSUPP_IMG	:= gmapsupp_$(TOPOBOX).img
+CACHE		:= .cache
+
+CACHE_TOPO	:= $(CACHE)/topo
+TOPO_SRC	:= $(CACHE_TOPO)/_$(TOPOBOX)_view3.osm.pbf
+TOPO_ARGS	:= $(CACHE_TOPO)/$(TOPOBOX).topo.args
+TOPO_IMG	:= $(CACHE_TOPO)/$(TOPOBOX).img
+
+CACHE_OSM	:= $(CACHE)/osm
+OSM_SRC		:= $(CACHE_OSM)/$(OSMBOX).osm
+OSM_ARGS	:= $(CACHE_OSM)/$(OSMBOX).osm.args
+OSM_IMG		:= $(CACHE_OSM)/$(OSMBOX).img
+
+
+MAX_NODES	:= 1000000
+
+$(GMAPSUPP_IMG): $(TOPO_IMG) $(OSM_IMG) 
+	gmt -j -o $(GMAPSUPP_IMG) $(TOPO_IMG) $(OSM_IMG)
+#	mkgmap --gmapsupp $(TOPO_IMG) $(OSM_IMG)
+#	mv gmapsupp.img $(GMAPSUPP_IMG)
+
+$(TOPO_SRC):
+	mkdir -p $(CACHE_TOPO)
+	phyghtmap \
+	  -a $(lon):$(lat):$(LON):$(LAT) \
+	  --output-prefix="$(CACHE_TOPO)/" \
+	  --source=view3,srtm3 \
+	  --hgtdir=$(CACHE) \
+	  --pbf \
+	  --max-nodes-per-tile=0 \
+	  --max-nodes-per-way=0 \
+	  --start-node-id=10000000000 \
+	  --start-way-id=10000000000 \
+	  --step=10 \
+	  --line-cat=100,30
+#	mv *.osm.pbf $(CACHE_TOPO)
+
+$(TOPO_ARGS): $(TOPO_SRC)
+	splitter \
+	  --output-dir=$(CACHE_TOPO)/split \
+	  --max-nodes=$(MAX_NODES) \
+	  --geonames-file=cities1000.zip \
+	  --max-areas=128 \
+	  --mapid=45910540 \
+	  --max-threads=1 \
+	  $(TOPO_SRC)
+	sed 's/description: /description: Topo-/' $(CACHE_TOPO)/split/template.args \
+	| sed 's/input-file: /input-file: split\//' > $(TOPO_ARGS)
+	rm $(CACHE_TOPO)/split/template.args
+#	  --polygon-file=$(POLY_FILE) \
+
+$(TOPO_IMG): $(TOPO_ARGS)
+	mkgmap \
+	  --code-page=1251 \
+	  --style-file=styles \
+	  --style=mapdd \
+	  --tdbfile \
+	  --gmapsupp \
+	  --draw-priority=28 \
+	  --transparent \
+	  --output-dir=$(CACHE_TOPO) \
+	  -c $(TOPO_ARGS)
+	rm $(CACHE_TOPO)/[0-9]*.img
+	mv $(CACHE_TOPO)/gmapsupp.img $(TOPO_IMG)
+
+$(OSM_SRC):
+	mkdir -p $(CACHE_OSM)
+	osmdump \
+	  -b $(lon):$(lat):$(LON):$(LAT) \
+	  -n 0 \
+	  -o $(CACHE_OSM)
+
+$(OSM_ARGS): $(OSM_SRC)
+	splitter \
+	  --output-dir=$(CACHE_OSM)/split \
+	  --max-nodes=$(MAX_NODES) \
+	  --max-areas=4096 \
+	  --geonames-file=cities1000.zip \
+	  --mapid=45900540 \
+	  $(OSM_SRC)
+	sed 's/description: /description: OSM-/' $(CACHE_OSM)/split/template.args \
+	| sed 's/input-file: /input-file: split\//' > $(OSM_ARGS)
+	rm $(CACHE_OSM)/split/template.args
+#	  --polygon-file=$(POLY_FILE) \
+
+$(OSM_IMG): $(OSM_ARGS)
+	mkgmap \
+	  --code-page=1251 \
+	  --style-file=styles \
+	  --style=mapdd \
+	  -n 2 \
+	  --gmapsupp \
+	  --index \
+	  --route \
+	  --make-all-cycleways \
+	  --output-dir=$(CACHE_OSM) \
+	  -c $(OSM_ARGS)
+	rm $(CACHE_OSM)/[0-9]*.img
+	mv $(CACHE_OSM)/gmapsupp.img $(OSM_IMG)
+
+.PHONY: clean
+
+clean:
+	rm $(OSM_IMG) $(TOPO_IMG) $(GMAPSUPP_IMG) $(CACHE)/osm/split/* $(CACHE)/topo/split/*
+
+.PHONY:	help
+
+help:
+	echo $(LLBOX)
+	echo $(POLY)
