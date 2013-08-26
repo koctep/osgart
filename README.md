@@ -10,4 +10,4 @@ Open Street - GARmin Translator
 * GMapTool
     + [Windows](http://www.gmaptool.eu/en/content/windows-setup)
     + [Linux](http://www.gmaptool.eu/en/content/linux-version)
-    + [OS X]: http://www.gmaptool.eu/en/content/os-x-version)
+    + [OS X](http://www.gmaptool.eu/en/content/os-x-version)
