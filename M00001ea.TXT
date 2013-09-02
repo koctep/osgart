@@ -1,0 +1,5495 @@
+; THIS FILE WAS CREATED BY DECOMPILER v1.162 AT http://ati.land.cz/gps/typdecomp AND IT MAY NOT
+; EXACTLY CORRESPOND TO ORIGINAL .TYP FILE.
+; SOME ELEMENTS MAY BE MISSING FROM THIS FILE, AND OTHERS MAY BE INCOMPLETE!
+; 
+; IF YOU USE THIS FILE AS SOURCE FOR cGPSmapper, IT WILL ALMOST CERTAINLY NOT PRODUCE WHAT YOU WANT.
+; 
+; IF YOU WANT JUST TO CHANGE SOMETHING, USE TYP EDITOR AT http://ati.land.cz/gps/typedit
+; Original TYP was created 15.1.2013 at 17:16:27, probably with Garmin MPC
+; Text codepage=1251
+; Version=1
+
+; Header length: 0x006e bytes, header format: NT
+; Header dump:
+;  draworder:                                        info@0x00536c-0x0054a1 (elem_size=5, #elements=62)
+;    polygon: data@0x00006e-0x000cdd (len=0x000c70), info@0x000cde-0x000d69 (elem_size=4, #elements=35)
+;      point: data@0x0016a0-0x0051d7 (len=0x003b38), info@0x0051d8-0x00536b (elem_size=4, #elements=101)
+;       line: data@0x000d6a-0x0015cf (len=0x000866), info@0x0015d0-0x00169f (elem_size=4, #elements=52)
+;   NT1point: data@0x000000-0x000000 (len=0x000000), info@0x000000-0x000000 (elem_size=0, #elements=0)
+
+[_id]
+ProductCode=0x1
+FID=0x1ea ; 
+[end]
+
+; NT1 header part:
+; y=0x1f
+
+[_drawOrder]
+Type=0x01,1
+Type=0x02,1
+Type=0x03,1
+Type=0x53,1
+Type=0x10102,2
+Type=0x0c,2
+Type=0x10,2
+Type=0x4e,2
+Type=0x10100,3
+Type=0x10101,3
+Type=0x0b,3
+Type=0x15,3
+Type=0x17,3
+Type=0x1e,3
+Type=0x4f,3
+Type=0x50,3
+Type=0x52,3
+Type=0x0a,4
+Type=0x0e,4
+Type=0x0f,4
+Type=0x18,4
+Type=0x51,4
+Type=0x05,5
+Type=0x06,5
+Type=0x07,5
+Type=0x08,5
+Type=0x10c06,5
+Type=0x0d,5
+Type=0x10f00,5
+Type=0x16,5
+Type=0x19,5
+Type=0x1a,5
+Type=0x21,5
+Type=0x4c,5
+Type=0x4d,5
+Type=0x10118,6
+Type=0x04,6
+Type=0x09,6
+Type=0x28,6
+Type=0x29,6
+Type=0x32,6
+Type=0x3b,6
+Type=0x3c,6
+Type=0x3d,6
+Type=0x3e,6
+Type=0x3f,6
+Type=0x40,6
+Type=0x41,6
+Type=0x42,6
+Type=0x43,6
+Type=0x44,6
+Type=0x45,6
+Type=0x46,6
+Type=0x47,6
+Type=0x48,6
+Type=0x49,6
+Type=0x13,7
+[end]
+
+; --------------------------------------------------------------------------
+; start of polygon collection
+; --------------------------------------------------------------------------
+[_polygon]
+; Originally @(0x00006e+0x000000)=0x00006e
+; Drawing order: 1
+Type=0x001
+XPM="0 0 2 2",
+"XX  c #c0c080",
+"==  c #606060",
+String1=0x19,город
+String2=0x04,city
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000016)=0x000084
+; Drawing order: 1
+Type=0x002
+XPM="0 0 2 2",
+"XX  c #c0c080",
+"==  c #606060",
+String1=0x19,город
+String2=0x04,town
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x00002c)=0x00009a
+; Drawing order: 1
+Type=0x003
+XPM="0 0 2 2",
+"XX  c #c0c080",
+"==  c #606060",
+String1=0x19,поселок/село
+String2=0x04,town
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000049)=0x0000b7
+; Drawing order: 6
+Type=0x004
+XPM="32 32 2 2",
+"XX  c #ff0000",
+"==  c none",
+"XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====",
+"XXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XX",
+"XXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXX",
+"XXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXX",
+"XXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXX",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX",
+"==XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX==",
+"XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====",
+"XXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XX",
+"XXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXX",
+"XXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXX",
+"XXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXX",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX",
+"==XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX==",
+"XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====",
+"XXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XX",
+"XXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXX",
+"XXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXX",
+"XXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXX",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX",
+"==XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX==",
+"XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====",
+"XXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XX",
+"XXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXX",
+"XXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXX",
+"XXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXX",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX",
+"==XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX=="
+};
+String1=0x19,запретная зона
+String2=0x04,restricted area
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0000ef)=0x00015d
+; Drawing order: 5
+Type=0x005
+XPM="0 0 1 2",
+"XX  c #80c0c0",
+String1=0x19,парковка
+String2=0x04,parking
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000107)=0x000175
+; Drawing order: 5
+Type=0x006
+XPM="0 0 1 2",
+"XX  c #80c0c0",
+String1=0x19,гаражи
+String2=0x04,garages
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x00011d)=0x00018b
+; Drawing order: 5
+Type=0x008
+XPM="0 0 1 2",
+"XX  c #c000c0",
+String1=0x19,торговля
+String2=0x04,shops
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000133)=0x0001a1
+; Drawing order: 4
+Type=0x00a
+XPM="0 0 2 2",
+"XX  c #80c000",
+"==  c #80c000",
+String1=0x19,образование
+String2=0x04,education
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000153)=0x0001c1
+; Drawing order: 3
+Type=0x00b
+XPM="0 0 2 2",
+"XX  c #c00000",
+"==  c #c00000",
+String1=0x19,больница
+String2=0x04,clinic/hospital
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000176)=0x0001e4
+; Drawing order: 2
+Type=0x00c
+XPM="0 0 2 2",
+"XX  c #a0a0a0",
+"==  c #404040",
+String1=0x19,промзона
+String2=0x04,industrial
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000194)=0x000202
+; Drawing order: 5
+Type=0x00d
+XPM="0 0 1 2",
+"XX  c #ffc080",
+String1=0x19,площадь
+String2=0x04,square
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0001aa)=0x000218
+; Drawing order: 4
+Type=0x00f
+XPM="0 0 1 2",
+"XX  c #333333",
+String1=0x19,свалка
+String2=0x04,waste dump
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  08 FF FF FF                                        ....
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0001c7)=0x000235
+; Drawing order: 2
+Type=0x010
+XPM="0 0 2 2",
+"XX  c #dfd5d5",
+"==  c #808080",
+String1=0x19,жилая зона
+String2=0x04,residential
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0001e9)=0x000257
+; Drawing order: 7
+Type=0x013
+XPM="0 0 2 2",
+"XX  c #c08000",
+"==  c #c08000",
+String1=0x19,здание
+String2=0x04,building
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000204)=0x000272
+; Drawing order: 3
+Type=0x015
+XPM="32 32 4 2",
+"XX  c #008000",
+"==  c #00ff00",
+"**  c #00c000",
+"##  c #004000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX"
+};
+String1=0x19,лес/парк
+String2=0x04,forest/park
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0002a9)=0x000317
+; Drawing order: 5
+Type=0x016
+XPM="32 32 2 2",
+"XX  c #008000",
+"==  c #00c000",
+"XXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXX",
+"XX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXX",
+"==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==",
+"XXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXX",
+"XX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXX",
+"==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==",
+"XXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXX",
+"XX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXX",
+"==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==",
+"XXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXX",
+"XXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXX",
+"XXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXX",
+"XX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXX",
+"==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX=="
+};
+String1=0x19,национальный парк
+String2=0x04,national park
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000353)=0x0003c1
+; Drawing order: 3
+Type=0x017
+XPM="32 32 4 2",
+"XX  c #00ff00",
+"==  c #00c000",
+"**  c #008000",
+"##  c #004000",
+"XXXXXX==XXXXXXXXXXXX==XX==XXXXXXXXXXXX==XXXX====XXXX==XX====XXXX",
+"====XX==XX==XXXX==XX==XX====XX====XX==XXXXXXXX==XX====XXXX==XX==",
+"XX==XXXXXXXXXX==XXXX==XXXXXXXXXX==XXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX====XXXXXXXX====XX====XX====XXXXXXXXXX==",
+"XXXXXX====XX==XXXXXX==XX==XXXX==XXXX==XXXXXX==XX==XXXX==XX==XX==",
+"XX==XXXXXXXX====XX====XXXXXXXX====XXXXXX==XXXXXXXXXX====XX==XX==",
+"XX====XX==XXXXXXXXXXXXXX====XXXXXXXX==XX====XX====XXXXXXXX==XXXX",
+"XXXXXXXX====XXXX======XXXX==XXXXXX====XXXXXXXX==XXXXXX==XXXXXXXX",
+"====XXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXXXX==XXXXXXXXXX======XXXX==",
+"XX==XX====XX====XXXXXX==XXXX====XX====XX==XXXX====XXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXX====XXXXXXXXXXXXXX====XX==XXXXXX==XX======",
+"XXXX==XXXXXXXX======XXXXXXXX======XX==XXXXXXXXXXXXXX====XXXX==XX",
+"XXXX==XX====XXXXXXXXXX====XXXXXX==XX==XX==XX====XXXXXXXXXXXXXXXX",
+"==XX==XXXX==XX==XX==XXXX==XX==XXXXXXXXXXXXXXXXXXXX====XX==XX====",
+"XXXXXXXXXXXXXX==XXXX==XXXXXX==XX====XX==XXXX====XX==XXXXXXXXXXXX",
+"XX======XX==XX====XX==XX==XXXXXXXX==XX====XX==XXXXXXXX==XXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXX==XXXX====XXXX==",
+"XXXX====XX==XXXXXX====XXXXXXXX====XX==XX======XX====XXXXXXXXXXXX",
+"==XXXX==XXXXXX==XXXX==XX====XX==XXXX==XXXXXXXXXXXXXXXX==XX====XX",
+"====XXXXXXXX======XXXXXXXX==XXXXXXXX==XXXXXX==XX====XX==XXXX==XX",
+"XXXXXXXX==XXXXXXXXXX==XXXXXXXXXX==XXXXXX==XX==XXXX==XXXXXXXX==XX",
+"====XX====XXXXXX==XX====XX==XX======XX====XX==XXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXX==XX==XXXXXXXX==XXXXXXXXXXXXXXXXXXXX====XX==XX====XX",
+"XX====XX==XXXXXXXXXXXX==XX==XX==XXXXXX==XX====XXXX==XX==XXXX====",
+"XX==XXXX====XX====XX====XXXXXX====XX====XX==XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX======XXXX==XXXX",
+"==XX====XX==XXXXXX==XX======XXXX==XXXXXXXX==XXXXXXXXXXXX====XX==",
+"XXXX==XX====XXXXXX==XXXXXXXXXXXX====XX==XX====XXXX==XXXXXXXXXX==",
+"XXXXXXXXXXXXXX==XX==XX==XXXX==XXXXXXXX==XXXXXXXXXX====XX==XXXXXX",
+"==XX======XX====XXXXXX==XX====XXXXXX====XX======XXXXXXXX==XX====",
+"==XXXXXXXXXXXXXXXX==XX==XXXXXXXX==XXXXXXXXXXXXXX====XX====XXXXXX",
+"XXXXXX==XX======XXXXXXXXXX==XX====XX==XX==XXXXXX==XXXXXXXXXX===="
+};
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0003e0)=0x00044e
+; Drawing order: 4
+Type=0x018
+XPM="32 32 4 2",
+"XX  c #ffffc0",
+"==  c #00c000",
+"**  c #000000",
+"##  c #008000",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"========================XX====XX========================XX====XX",
+"========================XX====XX========================XX====XX",
+"========================XX====XX========================XX====XX",
+"========================XX====XX========================XX====XX",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"========XX====XX========================XX====XX================",
+"========XX====XX========================XX====XX================",
+"========XX====XX========================XX====XX================",
+"========XX====XX========================XX====XX================",
+"================================================================",
+"================================================================"
+};
+String1=0x19,трава
+String2=0x04,grass
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x00047c)=0x0004ea
+; Drawing order: 5
+Type=0x019
+XPM="0 0 2 2",
+"XX  c #80ffc0",
+"==  c #008080",
+String1=0x19,спорт
+String2=0x04,sport
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000493)=0x000501
+; Drawing order: 5
+Type=0x01a
+XPM="32 32 4 2",
+"XX  c #00c000",
+"==  c #004000",
+"**  c #008000",
+"##  c #004000",
+"====XX==============================XX==========================",
+"====XX==============================XX==========================",
+"XXXXXXXXXX======================XXXXXXXXXX======================",
+"====XX==============================XX==========================",
+"====XX==============================XX==========================",
+"====XX==============================XX==========================",
+"====XX==============================XX==========================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"====================XX==============================XX==========",
+"====================XX==============================XX==========",
+"================XXXXXXXXXX======================XXXXXXXXXX======",
+"====================XX==============================XX==========",
+"====================XX==============================XX==========",
+"====================XX==============================XX==========",
+"====================XX==============================XX==========",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================"
+};
+String1=0x19,кладбище
+String2=0x04,cemetary
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000535)=0x0005a3
+; Drawing order: 5
+Type=0x021
+XPM="32 32 2 2",
+"XX  c #dfd5d5",
+"==  c #008000",
+"==========XX==XX================================================",
+"======XXXXXXXXXXXXXX============================================",
+"====XX====XX==XX====XX==========================================",
+"====XX====XX==XX================================================",
+"====XX====XX==XX================================================",
+"======XXXXXXXXXXXXXX============================================",
+"==========XX==XX====XX==========================================",
+"==========XX==XX====XX==========================================",
+"==========XX==XX====XX==========================================",
+"====XX====XX==XX====XX==========================================",
+"======XXXXXXXXXXXXXX============================================",
+"==========XX==XX================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"==========================================XX==XX================",
+"======================================XXXXXXXXXXXXXX============",
+"====================================XX====XX==XX====XX==========",
+"====================================XX====XX==XX================",
+"====================================XX====XX==XX================",
+"======================================XXXXXXXXXXXXXX============",
+"==========================================XX==XX====XX==========",
+"==========================================XX==XX====XX==========",
+"==========================================XX==XX====XX==========",
+"====================================XX====XX==XX====XX==========",
+"======================================XXXXXXXXXXXXXX============",
+"==========================================XX==XX================",
+"================================================================",
+"================================================================",
+"================================================================"
+};
+String1=0x19,гольф
+String2=0x04,golf
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0005ca)=0x000638
+; Drawing order: 6
+Type=0x03c
+XPM="0 0 2 2",
+"XX  c #40c0ff",
+"==  c #000080",
+String1=0x19,водоем
+String2=0x04,water
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  18 FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0005e8)=0x000656
+; Drawing order: 6
+Type=0x03f
+XPM="0 0 2 2",
+"XX  c #40c0ff",
+"==  c #000080",
+String1=0x19,водоем
+String2=0x04,water
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  18 FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000606)=0x000674
+; Drawing order: 6
+Type=0x046
+XPM="0 0 2 2",
+"XX  c #40c0ff",
+"==  c #000080",
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  18 FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000614)=0x000682
+; Drawing order: 2
+Type=0x04e
+XPM="32 32 4 2",
+"XX  c #c0c080",
+"==  c #008000",
+"**  c #808080",
+"##  c #606060",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"================================================================",
+"================================================================",
+"================================================================",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"================================================================",
+"================================================================",
+"================================================================",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"================================================================",
+"================================================================",
+"================================================================",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"XX======XX======XX======XX======XX======XX======XX======XX======",
+"==XXXXXX==========XXXXXX==========XXXXXX==========XXXXXX========",
+"================================================================",
+"================================================================",
+"================================================================"
+};
+String1=0x19,сад/огород
+String2=0x04,gardens/allotments
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0006c2)=0x000730
+; Drawing order: 3
+Type=0x04f
+XPM="32 32 4 2",
+"XX  c #ffffc0",
+"==  c #00c000",
+"**  c #000000",
+"##  c #008000",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"============================XX==============================XX==",
+"================================================================",
+"================================================================",
+"========================XXXX============================XXXX====",
+"======================XX====XX========================XX====XX==",
+"================XX====XX====XX==================XX====XX====XX==",
+"========================XXXX============================XXXX====",
+"================================================================",
+"==============================XX==============================XX",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"================================================================",
+"============XX==============================XX==================",
+"================================================================",
+"================================================================",
+"========XXXX============================XXXX====================",
+"======XX====XX========================XX====XX==================",
+"XX====XX====XX==================XX====XX====XX==================",
+"========XXXX============================XXXX====================",
+"================================================================",
+"==============XX==============================XX================",
+"================================================================",
+"================================================================"
+};
+String1=0x19,кустарник
+String2=0x04,bushes
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000763)=0x0007d1
+; Drawing order: 3
+Type=0x050
+XPM="0 0 2 2",
+"XX  c #00ff00",
+"==  c #004000",
+String1=0x19,лес
+String2=0x04,woods
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000777)=0x0007e5
+; Drawing order: 4
+Type=0x051
+XPM="32 32 2 2",
+"XX  c #0000ff",
+"==  c none",
+"================XXXXXX==============XXXXXX==============XXXXXX==",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"========XXXXXX==============XXXXXX==============XXXXXX==========",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==================XXXXXX==============XXXXXX==============XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"========XXXXXX==============XXXXXX==============XXXXXX==========",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==============XXXXXX==============XXXXXX==================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"============XXXXXX==============XXXXXX==============XXXXXX======",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"====XXXXXX==============XXXXXX==============XXXXXX==============",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==========XXXXXX==============XXXXXX==============XXXXXX========",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,болото
+String2=0x04,wetland
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x00080d)=0x00087b
+; Drawing order: 1
+Type=0x053
+XPM="32 32 1 2",
+"XX  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,остров
+String2=0x19,island
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0008a3)=0x000911
+; Drawing order: 3
+Type=0x101
+SubType=0x00
+XPM="32 32 4 2",
+"XX  c #008000",
+"==  c #00ff00",
+"**  c #008000",
+"##  c #004000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXX==XX==XX==XX",
+"XXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXX==XXXX==XXXX==XXXXXXXXXXXXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXX==XX==XX==XX",
+"XXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXX==XXXX==XXXX==",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXX==XXXX==XXXX==XXXXXXXXXXXXXXXXXX",
+"XXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXX",
+"XX==XXXX==XXXX==XXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,хвойный лес
+String2=0x04,coniferous wood
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x00094f)=0x0009bd
+; Drawing order: 3
+Type=0x101
+SubType=0x01
+XPM="32 32 4 2",
+"XX  c #008000",
+"==  c #00ff00",
+"**  c #008000",
+"##  c #004000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XX==XXXX",
+"XXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXX======XX==XXXX",
+"XXXXXXXXXXXXXXXXXX======XX==XXXXXXXXXXXXXXXXXXXX========XXXX==XX",
+"XXXXXXXXXXXXXXXXXX======XX==XXXXXXXXXXXXXXXXXX==========XXXXXX==",
+"XXXXXXXXXXXXXXXX========XXXX==XXXXXXXXXXXXXXXX==========XXXXXX==",
+"XXXXXXXXXXXXXX==========XXXXXX==XXXXXXXXXXXXXXXX========XXXX==XX",
+"XXXXXXXXXXXXXX==========XXXXXX==XXXXXXXXXXXXXXXXXX==========XXXX",
+"XXXXXXXXXXXXXXXX========XXXX==XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XX==XXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXX======XX==XXXXXXXXXXXXXXXXXX",
+"XXXX======XX==XXXXXXXXXXXXXXXXXXXX========XXXX==XXXXXXXXXXXXXXXX",
+"XXXX======XX==XXXXXXXXXXXXXXXXXX==========XXXXXX==XXXXXXXXXXXXXX",
+"XX========XXXX==XXXXXXXXXXXXXXXX==========XXXXXX==XXXXXXXXXXXXXX",
+"==========XXXXXX==XXXXXXXXXXXXXXXX========XXXX==XXXXXXXXXXXXXXXX",
+"==========XXXXXX==XXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXX",
+"XX========XXXX==XXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXX",
+"XXXX==========XXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,лиственный лес
+String2=0x04,deciduous wood
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x0009fd)=0x000a6b
+; Drawing order: 2
+Type=0x101
+SubType=0x02
+XPM="32 32 2 2",
+"XX  c #0000ff",
+"==  c none",
+"==================XX==================XX==================XX====",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==============XXXXXX",
+"XX========XX==================XX==========XX==XXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXXXXXX==",
+"XX==================XX==============XX==XXXXXXXXXX==XXXXXXXXXX==",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==============XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XXXXXXXXXX==XX========XX==================XX==========XX",
+"XXXXXX==XXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==========================XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==XXXXXXXXXX==XXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==XXXXXXXXXX==XXXXXXXXXX==XX==============XX================XXXX",
+"==========================XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==============XXXXXX",
+"==============XX==================XX======XX==XXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXXXXXX==",
+"XX====XX==================XX========XX==XXXXXXXXXX==XXXXXXXXXX==",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"============XX==================XX==================XX==========",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,торфоразработки
+String2=0x04,peat cutting
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000aa1)=0x000b0f
+; Drawing order: 6
+Type=0x101
+SubType=0x18
+XPM="32 32 2 2",
+"XX  c #c04000",
+"==  c #c04000",
+"XXXXXXXX==XXXX====XXXXXXXX==XXXXXXXXXXXX==XXXXXXXX======XXXXXX==",
+"==XXXXXXXX==XXXX====XXXXXX====XXXXXX====XXXXXXXXXXXXXXXXXX====XX",
+"XX====XXXX==XXXXXX==XXXXXXXX====XX====XXXXXXXXXXXXXXXX==XXXXXXXX",
+"XXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXX==XXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXX====XXXXXXXXXX",
+"XXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXX==XXXXXXXXXXXX==XXXXXX",
+"==XXXX==XXXXXXXX==XX==XXXXXXXX====XX======XXXXXXXXXXXXXX==XXXXXX",
+"==XXXXXX==XXXXXXXX====XXXXXXXX==XXXXXXXX==XXXXXX==XXXXXX==XXXXXX",
+"==XXXXXX==XXXXXXXXXX==XXXXXXXX==XXXXXX======XXXX==XXXXXX==XXXXXX",
+"XX==XXXXXX====XXXXXX====XXXX==XXXXXXXX==XX====XX====XXXX==XXXXXX",
+"XX==XXXXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX==XX==XXXXXXXX",
+"XX==XXXXXX====XXXXXX====XX====XXXXXX==XX==XXXXXXXX==XX==XXXXXXXX",
+"XXXX==XXXX==XX==XXXXXX==XX==XXXXXX====XXXX==XXXXXXXX====XXXXXXXX",
+"XXXX==XXXX==XX====XXXXXXXX==XXXXXX====XXXX==XXXXXXXX====XXXXXXXX",
+"XXXXXXXX==XXXXXX====XXXXXX==XXXX==XX==XXXXXX==XXXXXXXX==XXXXXXXX",
+"XXXXXX==XXXXXXXX====XXXXXX==XX==XXXX==XXXXXX==XXXXXX====XXXXXXXX",
+"==XXXX====XXXXXXXX==XXXXXX======XXXX==XXXXXX====XXXX====XXXXXXXX",
+"XXXX==XX==XXXXXXXX====XX==XX==XXXXXXXX==XXXXXX====XX==XX==XXXXXX",
+"XXXX==XX==XXXXXXXX========XXXXXXXXXXXX====XXXXXX======XX====XXXX",
+"====XXXXXX==XXXXXX==XX====XXXXXXXXXX==XX==XXXXXXXX====XXXXXXXXXX",
+"XX==XXXXXX==XXXXXX==XX======XXXXXXXX==XX==XXXXXXXXXX====XXXXXXXX",
+"XXXX==XXXX==XXXX====XXXX======XXXX==XXXXXX==XXXXXXXX==XX==XXXXXX",
+"==XX==XXXX==XX====XXXXXXXXXXXX==XX==XXXXXX==XXXXXXXX==XXXX====XX",
+"XXXXXXXXXX====XXXXXXXXXXXXXXXXXX====XXXXXX==XXXXXXXX==XXXXXX====",
+"XXXXXXXXXXXX==XXXX==XXXXXXXXXXXX====XXXXXXXX==XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXX====XX==XXXXXXXXXXXX====XXXXXXXX====XXXX====XXXXXXXX",
+"XXXXXXXXXX==XX====XXXXXXXXXXXX==XXXX==XXXX==XX====XX==XX==XXXXXX",
+"XXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXX==XX==XXXXXXXXXXXXXX==XXXX",
+"XXXX====XXXXXXXXXXXXXXXX==XXXX==XXXXXXXX====XXXXXXXXXXXXXXXX====",
+"XX==XXXXXXXXXXXXXXXX====XXXX====XXXXXXXX==========XXXXXXXXXXXX==",
+"====XXXXXXXXXXXXXX====XXXXXX==XXXXXX====XXXX==XX==XXXXXXXXXXXXXX",
+"==XXXXXXXXXXXXXXXX==XXXXXXXX==XXXX====XXXXXX====XX==XXXXXXXXXXXX"
+};
+String1=0x19,обрыв
+String2=0x04,cliff
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000b37)=0x000ba5
+; Drawing order: 5
+Type=0x10c
+SubType=0x06
+XPM="32 32 4 2",
+"XX  c #ffc080",
+"==  c #ffffc0",
+"**  c #c08080",
+"##  c #ffc080",
+"XXXXXX==XXXXXXXXXXXX==XX==XXXXXXXXXXXX==XXXX====XXXX==XX====XXXX",
+"====XX==XX==XXXX==XX==XX====XX====XX==XXXXXXXX==XX====XXXX==XX==",
+"XX==XXXXXXXXXX==XXXX==XXXXXXXXXX==XXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XXXXXXXX==XXXXXXXXXXXXXX====XXXXXXXX====XX====XX====XXXXXXXXXX==",
+"XXXXXX====XX==XXXXXX==XX==XXXX==XXXX==XXXXXX==XX==XXXX==XX==XX==",
+"XX==XXXXXXXX====XX====XXXXXXXX====XXXXXX==XXXXXXXXXX====XX==XX==",
+"XX====XX==XXXXXXXXXXXXXX====XXXXXXXX==XX====XX====XXXXXXXX==XXXX",
+"XXXXXXXX====XXXX======XXXX==XXXXXX====XXXXXXXX==XXXXXX==XXXXXXXX",
+"====XXXXXXXXXXXXXX==XXXXXXXXXX==XXXXXXXX==XXXXXXXXXX======XXXX==",
+"XX==XX====XX====XXXXXX==XXXX====XX====XX==XXXX====XXXXXXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXXXX====XXXXXXXXXXXXXX====XX==XXXXXX==XX======",
+"XXXX==XXXXXXXX======XXXXXXXX======XX==XXXXXXXXXXXXXX====XXXX==XX",
+"XXXX==XX====XXXXXXXXXX====XXXXXX==XX==XX==XX====XXXXXXXXXXXXXXXX",
+"==XX==XXXX==XX==XX==XXXX==XX==XXXXXXXXXXXXXXXXXXXX====XX==XX====",
+"XXXXXXXXXXXXXX==XXXX==XXXXXX==XX====XX==XXXX====XX==XXXXXXXXXXXX",
+"XX======XX==XX====XX==XX==XXXXXXXX==XX====XX==XXXXXXXX==XXXX==XX",
+"XXXXXXXXXX==XXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXX==XXXX====XXXX==",
+"XXXX====XX==XXXXXX====XXXXXXXX====XX==XX======XX====XXXXXXXXXXXX",
+"==XXXX==XXXXXX==XXXX==XX====XX==XXXX==XXXXXXXXXXXXXXXX==XX====XX",
+"====XXXXXXXX======XXXXXXXX==XXXXXXXX==XXXXXX==XX====XX==XXXX==XX",
+"XXXXXXXX==XXXXXXXXXX==XXXXXXXXXX==XXXXXX==XX==XXXX==XXXXXXXX==XX",
+"====XX====XXXXXX==XX====XX==XX======XX====XX==XXXXXXXX==XXXXXXXX",
+"XXXXXXXXXXXX==XX==XXXXXXXX==XXXXXXXXXXXXXXXXXXXX====XX==XX====XX",
+"XX====XX==XXXXXXXXXXXX==XX==XX==XXXXXX==XX====XXXX==XX==XXXX====",
+"XX==XXXX====XX====XX====XXXXXX====XX====XX==XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXX======XXXX==XXXX",
+"==XX====XX==XXXXXX==XX======XXXX==XXXXXXXX==XXXXXXXXXXXX====XX==",
+"XXXX==XX====XXXXXX==XXXXXXXXXXXX====XX==XX====XXXX==XXXXXXXXXX==",
+"XXXXXXXXXXXXXX==XX==XX==XXXX==XXXXXXXX==XXXXXXXXXX====XX==XXXXXX",
+"==XX======XX====XXXXXX==XX====XXXXXX====XX======XXXXXXXX==XX====",
+"==XXXXXXXXXXXXXXXX==XX==XXXXXXXX==XXXXXXXXXXXXXX====XX====XXXXXX",
+"XXXXXX==XX======XXXXXXXXXX==XX====XX==XX==XXXXXX==XXXXXXXXXX===="
+};
+String1=0x19,пески
+String2=0x04,sand
+[end]
+
+[_polygon]
+; Originally @(0x00006e+0x000bd2)=0x000c40
+; Drawing order: 5
+Type=0x10f
+SubType=0x00
+XPM="32 32 4 2",
+"XX  c #00c000",
+"==  c #ffffc0",
+"**  c #008000",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXX",
+"XXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXX",
+"XXXXXXXX======XXXXXX======XXXXXXXXXXXXXX======XXXXXX======XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"==XX==XXXXXXXXXXXXXXXXXXXXXX==XX==XX==XXXXXXXXXXXXXXXXXXXXXX==XX",
+"====XXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX==",
+"XXXX======XXXXXXXXXXXXXX======XXXXXX======XXXXXXXXXXXXXX======XX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,поля
+String2=0x04,farmland
+[end]
+
+
+; --------------------------------------------------------------------------
+; start of line collection
+; --------------------------------------------------------------------------
+[_line]
+; Originally @(0x000d6a+0x000000)=0x000d6a
+Type=0x001
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #00c000",
+"==  c #000000",
+LineWidth=2
+BorderWidth=1
+String1=0x19,автомагистраль
+String2=0x04,motorway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000025)=0x000d8f
+Type=0x002
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #8000c0",
+"==  c #8080ff",
+LineWidth=2
+BorderWidth=1
+String1=0x19,шоссе
+String2=0x04,highway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000040)=0x000daa
+Type=0x003
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ff0000",
+"==  c #000000",
+LineWidth=2
+BorderWidth=1
+String1=0x19,основная
+String2=0x04,primary highway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000066)=0x000dd0
+Type=0x004
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ffc080",
+"==  c #c00000",
+LineWidth=2
+BorderWidth=1
+String1=0x19,второстепенная
+String2=0x04,secondary highway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000094)=0x000dfe
+Type=0x005
+UseOrientation=Y
+XPM="32 2 2 2",
+"XX  c #ff4000",
+"==  c none",
+"====================XXXXXXXXXXXXXX====================XXXXXXXXXX",
+"====================XXXXXXXXXXXXXX====================XXXXXXXXXX"
+};
+String1=0x19,неизвестная дорога
+String2=0x04,unknown road
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0000c4)=0x000e2e
+Type=0x006
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ffffc0",
+"==  c #000000",
+LineWidth=2
+BorderWidth=1
+String1=0x19,дорога
+String2=0x04,unclassified highway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0000ed)=0x000e57
+Type=0x007
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+LineWidth=1
+String1=0x19,проезд
+String2=0x04,alley
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000106)=0x000e70
+Type=0x008
+UseOrientation=Y
+XPM="0 0 4 2",
+"XX  c #808080",
+"==  c #000000",
+"**  c #808080",
+"##  c #c0c0c0",
+LineWidth=2
+BorderWidth=1
+String1=0x19,съезд
+String2=0x04,highway ramp
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00012c)=0x000e96
+Type=0x009
+UseOrientation=Y
+XPM="0 0 4 2",
+"XX  c #808080",
+"==  c #000000",
+"**  c #808080",
+"##  c #c0c0c0",
+LineWidth=2
+BorderWidth=1
+String1=0x19,съезд
+String2=0x04,highway ramp
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000152)=0x000ebc
+Type=0x00a
+UseOrientation=Y
+XPM="32 1 2 2",
+"XX  c #020202",
+"==  c #e0e0e0",
+"XX============XXXX============XXXX============XXXX============XX"
+};
+String1=0x19,грунтовка
+String2=0x04,track
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000171)=0x000edb
+Type=0x00b
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #c00000",
+"==  c #ffffff",
+"================================================================",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"================================================================"
+};
+String1=0x19,недейств. ж/д
+String2=0x04,abandoned rail
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0001a9)=0x000f13
+Type=0x00d
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ffffff",
+"==  c #000000",
+LineWidth=1
+BorderWidth=1
+String1=0x19,жилая улица
+String2=0x04,residential street
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0001d5)=0x000f3f
+Type=0x00e
+UseOrientation=Y
+XPM="32 2 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX",
+"====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX"
+};
+String1=0x19,просека
+String2=0x04,cutline
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0001f8)=0x000f62
+Type=0x00f
+UseOrientation=Y
+XPM="32 7 2 2",
+"XX  c #0080ff",
+"==  c #0000ff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==============XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,течение
+String2=0x04,direction
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000232)=0x000f9c
+Type=0x010
+UseOrientation=Y
+XPM="32 4 4 2",
+"XX  c #0000ff",
+"==  c #80c0ff",
+"**  c #80c0ff",
+"##  c #0000ff",
+"XXXXXXXXXXXX========XXXXXXXXXXXXXXXXXXXXXXXX========XXXXXXXXXXXX",
+"XXXXXX====================XXXXXXXXXXXX====================XXXXXX",
+"XXXXXX====================XXXXXXXXXXXX====================XXXXXX",
+"XXXXXXXXXXXX========XXXXXXXXXXXXXXXXXXXXXXXX========XXXXXXXXXXXX"
+};
+String1=0x19,зимник
+String2=0x04,winter/ice road
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00026a)=0x000fd4
+Type=0x011
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ffff00",
+"==  c #000000",
+LineWidth=2
+BorderWidth=1
+String1=0x19,дорога
+String2=0x04,tertiary highway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00028f)=0x000ff9
+Type=0x012
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #000000",
+"==  c #ff8040",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX",
+"XXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX",
+"================================================================"
+};
+String1=0x19,дорога с плохим покрытием
+String2=0x04,road w/ bad pavement
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0002d9)=0x001043
+Type=0x013
+UseOrientation=Y
+XPM="32 3 2 2",
+"XX  c #000000",
+"==  c #ffff00",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX==XXXXXXXX",
+"================================================================"
+};
+String1=0x19,дорога с плохим покрытием
+String2=0x04,road w/ bad pavement
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00031f)=0x001089
+Type=0x014
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #330000",
+"==  c #ffffff",
+"================================================================",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"================================================================"
+};
+String1=0x19,ж/д
+String2=0x04,railroad
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000347)=0x0010b1
+Type=0x016
+UseOrientation=Y
+XPM="32 1 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"XX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XX"
+};
+String1=0x19,тропа
+String2=0x04,footway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000364)=0x0010ce
+Type=0x018
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #0080ff",
+"==  c #0000ff",
+LineWidth=1
+String1=0x19,ручей
+String2=0x04,stream
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000384)=0x0010ee
+Type=0x01b
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #0000f8",
+"==  c #000080",
+LineWidth=2
+BorderWidth=1
+String1=0x19,паром
+String2=0x04,ferry
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00039d)=0x001107
+Type=0x01c
+UseOrientation=Y
+XPM="32 3 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"==XXXXXXXX==XXXX==XXXXXXXX==XXXX==XXXXXXXX==XXXX==XXXXXXXX==XXXX",
+"============XXXX============XXXX============XXXX============XXXX",
+"==XXXXXXXX==XXXX==XXXXXXXX==XXXX==XXXXXXXX==XXXX==XXXXXXXX==XXXX"
+};
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 00 00 C0 00 C0 FF                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0003b8)=0x001122
+Type=0x01d
+UseOrientation=Y
+XPM="32 1 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"================XXXX==XXXX==XXXX================XXXX==XXXX==XXXX"
+};
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 00 00 C0 00 C0 FF                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0003cb)=0x001135
+Type=0x01e
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #c00000",
+"==  c none",
+"==XXXXXXXXXXXXXXXX==XXXXXXXXXXXX==XXXXXXXXXXXXXXXX==XXXXXXXXXXXX",
+"====================XXXX====XXXX====================XXXX====XXXX",
+"====================XXXX====XXXX====================XXXX====XXXX",
+"==XXXXXXXXXXXXXXXX==XXXXXXXXXXXX==XXXXXXXXXXXXXXXX==XXXXXXXXXXXX"
+};
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 00 00 C0 00 C0 FF                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0003e7)=0x001151
+Type=0x01f
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #0080ff",
+"==  c #0000ff",
+LineWidth=2
+String1=0x19,река
+String2=0x04,river
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000405)=0x00116f
+Type=0x023
+UseOrientation=Y
+XPM="32 1 2 2",
+"XX  c #4488ff",
+"==  c #000066",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX"
+};
+String1=0x19,изобата
+String2=0x04,elevation contour
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00042f)=0x001199
+Type=0x024
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #000066",
+"==  c #000066",
+LineWidth=1
+BorderWidth=0
+String1=0x19,изобата
+String2=0x04,elevation contour
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000457)=0x0011c1
+Type=0x025
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #000066",
+"==  c #000066",
+LineWidth=2
+BorderWidth=0
+String1=0x19,изобата
+String2=0x04,elevation contour
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00047f)=0x0011e9
+Type=0x028
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"XXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX====XX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"========XXXXXX==================================================",
+"XXXXXX====XX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,трубопровод
+String2=0x04,pipe line
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0004b5)=0x00121f
+Type=0x029
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"XXXXXXXXXX==XXXXXX==XXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXXXX==XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"================================================================",
+"XXXXXX======XXXXXX==XXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==XXXXXX==XXXXXX==XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,ЛЭП
+String2=0x04,power line
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0004e4)=0x00124e
+Type=0x100
+SubType=0x1f
+UseOrientation=Y
+XPM="32 8 2 2",
+"XX  c #0080ff",
+"==  c #0000ff",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"XX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XX",
+"XX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XX",
+"================================================================",
+"================================================================",
+"XX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XX",
+"XX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XXXX====XX",
+"XXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XX"
+};
+String1=0x19,пороги
+String2=0x04,rapids
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A FF 00 00 FF C0 00                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000524)=0x00128e
+Type=0x101
+SubType=0x02
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #4000ff",
+"==  c #00ffff",
+LineWidth=2
+BorderWidth=2
+String1=0x04,easy
+String2=0x19,простая
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00053e)=0x0012a8
+Type=0x101
+SubType=0x03
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #ff0000",
+"==  c #00ffff",
+LineWidth=2
+BorderWidth=2
+String1=0x04,intermediate
+String2=0x19,средняя
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000560)=0x0012ca
+Type=0x101
+SubType=0x04
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #000000",
+"==  c #00ffff",
+LineWidth=2
+BorderWidth=2
+String1=0x04,advanced
+String2=0x19,подготовленные
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000585)=0x0012ef
+Type=0x101
+SubType=0x05
+UseOrientation=Y
+XPM="0 0 2 2",
+"XX  c #00c000",
+"==  c #00ffff",
+LineWidth=2
+BorderWidth=2
+String1=0x04,novice
+String2=0x19,новички
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0005a1)=0x00130b
+Type=0x10f
+SubType=0x00
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #808080",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX============XXXXXXXX============XXXXXXXXXX============XXXX",
+"==========XXXX================XXXX==================XXXX========",
+"XXXXXX============XXXXXXXX============XXXXXXXXXX============XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x04,funicular
+String2=0x19,фуникулер
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0005d5)=0x00133f
+Type=0x10f
+SubType=0x01
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #808080",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"================================================================",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x04,gondola
+String2=0x19,гондола
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000605)=0x00136f
+Type=0x10f
+SubType=0x02
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #808080",
+"XX====XXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"================================================================",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"XX====XXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x04,mixed lift
+String2=0x19,смешанный
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00063a)=0x0013a4
+Type=0x10f
+SubType=0x03
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #808080",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"================================================================",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"XX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXXXX====XXXXXXXXXX"
+};
+String1=0x04,chair lift
+String2=0x19,креселка
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00066e)=0x0013d8
+Type=0x10f
+SubType=0x04
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #808080",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXX",
+"================================================================",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXXXXXXXXXXXXXXXXXX==XXXX"
+};
+String1=0x04,drag lift
+String2=0x19,бугель
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00069f)=0x001409
+Type=0x10f
+SubType=0x05
+UseOrientation=Y
+XPM="32 2 2 2",
+"XX  c #000000",
+"==  c #c0c0c0",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX"
+};
+String1=0x19,ж/д
+String2=0x04,railroad
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0006bf)=0x001429
+Type=0x10f
+SubType=0x11
+UseOrientation=Y
+XPM="32 7 2 2",
+"XX  c #000000",
+"==  c #ffffff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX============XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==========XXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX======XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,односторонняя
+String2=0x04,oneway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0006fb)=0x001465
+Type=0x10f
+SubType=0x12
+UseOrientation=Y
+XPM="32 3 2 2",
+"XX  c #880000",
+"==  c #c0c0c0",
+"==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"================================================================",
+"XXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXX"
+};
+String1=0x19,забор
+String2=0x04,fence
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00071f)=0x001489
+Type=0x10f
+SubType=0x13
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #000000",
+"==  c #ffffff",
+"================================================================",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"XXXXXX================XXXXXXXXXXXXXXXX================XXXXXXXXXX",
+"================================================================"
+};
+String1=0x19,ж/д
+String2=0x04,railroad
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000747)=0x0014b1
+Type=0x10f
+SubType=0x14
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX",
+"================================================================",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX",
+"================================================================",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX"
+};
+String1=0x19,трамвай
+String2=0x04,tram
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000774)=0x0014de
+Type=0x10f
+SubType=0x15
+UseOrientation=Y
+XPM="32 3 2 2",
+"XX  c #000000",
+"==  c #e0e0e0",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX========"
+};
+String1=0x19,канатка
+String2=0x04,aerialway
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00079d)=0x001507
+Type=0x10f
+SubType=0x16
+UseOrientation=Y
+XPM="0 0 1 2",
+"XX  c #c08000",
+LineWidth=10
+String1=0x19,мост
+String2=0x04,bridge
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0007b3)=0x00151d
+Type=0x10f
+SubType=0x17
+UseOrientation=Y
+XPM="32 5 2 2",
+"XX  c #c04000",
+"==  c none",
+"XXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXXXXXXXXXXXX==XXXX",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX",
+"XX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXXXX==XXXX",
+"================================================================"
+};
+String1=0x19,обрыв
+String2=0x04,cliff
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x0007db)=0x001545
+Type=0x10f
+SubType=0x18
+UseOrientation=Y
+XPM="0 0 1 2",
+"XX  c #c08000",
+LineWidth=5
+String1=0x19,пешеходный мост
+String2=0x04,foot bridge
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x000800)=0x00156a
+Type=0x10f
+SubType=0x19
+UseOrientation=Y
+XPM="32 4 2 2",
+"XX  c #c000ff",
+"==  c #c000c0",
+"================================================================",
+"XXXXXXXXXXXXXXXXXX==============XXXXXXXXXXXXXXXXXX==============",
+"XXXXXXXXXXXXXXXX==============XXXXXXXXXXXXXXXXXX==============XX",
+"================================================================"
+};
+String1=0x19,ремонт
+String2=0x04,construction
+[end]
+
+[_line]
+; Originally @(0x000d6a+0x00082f)=0x001599
+Type=0x10f
+SubType=0x1a
+UseOrientation=Y
+XPM="32 8 2 2",
+"XX  c #c08000",
+"==  c none",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX",
+"========XXXXXXXX========XXXXXXXX========XXXXXXXX========XXXXXXXX"
+};
+String1=0x19,тоннель
+String2=0x04,tunnel
+[end]
+
+
+; --------------------------------------------------------------------------
+; start of point collection
+; --------------------------------------------------------------------------
+[_point]
+; Originally @(0x0016a0+0x000000)=0x0016a0
+Type=0x00a
+DayXPM="6 6 4 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #40c080",
+"##  c #ffffff",
+"XX========XX",
+"==XX====XX==",
+"====**##====",
+"====##**====",
+"==XX====XX==",
+"XX========XX"
+};
+NightXPM="6 6 3 2",
+"XX  c #ffffff",
+"==  c #000000",
+"**  c #40c080",
+"XX========XX",
+"==XX====XX==",
+"====XX**====",
+"====**XX====",
+"==XX====XX==",
+"XX========XX"
+};
+String1=0x19,урочище
+String2=0x04,locality
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 40 40 FF A0 A0 A0                               .@@....
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000059)=0x0016f9
+Type=0x016
+XPM="16 13 3 2",
+"XX  c #000000",
+"==  c #f8fcf8",
+"**  c #000000",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXX==**==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==******==XXXXXXXXXXXX",
+"XX==========******==========XXXX",
+"XXXX==******************==XXXXXX",
+"XXXXXX==**************==XXXXXXXX",
+"XXXXXXXX==**********==XXXXXXXXXX",
+"XXXXXXXX==**********==XXXXXXXXXX",
+"XXXXXXXX==****==****==XXXXXXXXXX",
+"XXXXXXXX==**==XX==**==XXXXXXXXXX",
+"XXXXXXXX====XXXXXX====XXXXXXXXXX",
+"XXXXXXXX==XXXXXXXXXX==XXXXXXXXXX"
+};
+String1=0x19,маяк
+String2=0x04,beacon
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0000ac)=0x00174c
+Type=0x016
+SubType=0x13
+XPM="16 16 4 2",
+"XX  c #000000",
+"==  c #1b5e9a",
+"**  c #ffffff",
+"##  c #fd1916",
+"XXXXXXXX================XXXXXXXX",
+"XXXXXX==****************==XXXXXX",
+"XXXX==********************==XXXX",
+"XX==****##************##****==XX",
+"==******####********####******==",
+"==******####********####******==",
+"==******######****######******==",
+"==****########****########****==",
+"==****####**########**####****==",
+"==****####**########**####****==",
+"==****####****####****####****==",
+"==**######************######**==",
+"XX==************************==XX",
+"XXXX==********************==XXXX",
+"XXXXXX==****************==XXXXXX",
+"XXXXXXXX================XXXXXXXX"
+};
+String1=0x19,станция метро
+String2=0x04,subway station
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  08 00 00 C0                                        ....
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000163)=0x001803
+Type=0x016
+SubType=0x14
+XPM="16 16 4 2",
+"XX  c #000000",
+"==  c #1b5e9a",
+"**  c #ffffff",
+"##  c #fd1916",
+"XXXXXXXX================XXXXXXXX",
+"XXXXXX==****************==XXXXXX",
+"XXXX==********************==XXXX",
+"XX==****##************##****==XX",
+"==******####********####******==",
+"==******####********####******==",
+"==******######****######******==",
+"==****########****########****==",
+"==****####**########**####****==",
+"==****####**########**####****==",
+"==****####****####****####****==",
+"==**######************######**==",
+"XX==************************==XX",
+"XXXX==********************==XXXX",
+"XXXXXX==****************==XXXXXX",
+"XXXXXXXX================XXXXXXXX"
+};
+String1=0x19,вход в метро
+String2=0x04,subway entrance
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  08 00 00 C0                                        ....
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00021a)=0x0018ba
+Type=0x016
+SubType=0x15
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ff0000",
+"**  c #ffffff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX======XXXXXXXXXXXX======XXXX",
+"XXXX==****====XXXX====****==XXXX",
+"XXXX==********====********==XXXX",
+"XXXXXX======********======XXXXXX",
+"XXXX==********====********==XXXX",
+"XXXX==****====XXXX====****==XXXX",
+"XXXX======XXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,ж/д переезд
+String2=0x04,crossing
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000283)=0x001923
+Type=0x016
+SubType=0x16
+XPM="8 18 34 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #f00000",
+"%%  c #f10000",
+"11  c #ee0000",
+"22  c #f90000",
+"33  c #ec0000",
+"44  c #ae0000",
+"55  c #f20100",
+"66  c #f30100",
+"77  c #b20000",
+"88  c #abad00",
+"99  c #eff200",
+"00  c #aeb100",
+"AA  c #edf100",
+"BB  c #f9ff00",
+"CC  c #eef200",
+"DD  c #eef100",
+"EE  c #eff300",
+"FF  c #b1b300",
+"GG  c #f1f400",
+"HH  c #f1f500",
+"II  c #b4b700",
+"JJ  c #008e03",
+"KK  c #01cc05",
+"LL  c #01cd05",
+"MM  c #009103",
+"NN  c #00c805",
+"OO  c #00d305",
+"PP  c #00c905",
+"QQ  c #00cb05",
+"RR  c #00cd05",
+"SS  c #00ce05",
+"XX============XX",
+"====********====",
+"==****##%%****==",
+"==**112222##**==",
+"==**33222211**==",
+"==**44556677**==",
+"==************==",
+"==**88999900**==",
+"==**AABBBBCC**==",
+"==**DDBBBBEE**==",
+"==**FFGGHHII**==",
+"==************==",
+"==**JJKKLLMM**==",
+"==**NNOOOOPP**==",
+"==**QQOOOOQQ**==",
+"==****RRSS****==",
+"====********====",
+"XX============XX"
+};
+String1=0x19,светофор
+String2=0x04,traffic signals
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0003ac)=0x001a4c
+Type=0x02a
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,столовая
+String2=0x04,dining
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00040f)=0x001aaf
+Type=0x02a
+SubType=0x01
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00045f)=0x001aff
+Type=0x02a
+SubType=0x02
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0004af)=0x001b4f
+Type=0x02a
+SubType=0x03
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0004ff)=0x001b9f
+Type=0x02a
+SubType=0x04
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00054f)=0x001bef
+Type=0x02a
+SubType=0x05
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00059f)=0x001c3f
+Type=0x02a
+SubType=0x06
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0005ef)=0x001c8f
+Type=0x02a
+SubType=0x07
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00063f)=0x001cdf
+Type=0x02a
+SubType=0x08
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00068f)=0x001d2f
+Type=0x02a
+SubType=0x09
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0006df)=0x001d7f
+Type=0x02a
+SubType=0x0a
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00072f)=0x001dcf
+Type=0x02a
+SubType=0x0b
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00077f)=0x001e1f
+Type=0x02a
+SubType=0x0c
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0007cf)=0x001e6f
+Type=0x02a
+SubType=0x0d
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00081f)=0x001ebf
+Type=0x02a
+SubType=0x0e
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00086f)=0x001f0f
+Type=0x02a
+SubType=0x0f
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0008bf)=0x001f5f
+Type=0x02a
+SubType=0x10
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00090f)=0x001faf
+Type=0x02a
+SubType=0x11
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00095f)=0x001fff
+Type=0x02a
+SubType=0x12
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0009af)=0x00204f
+Type=0x02a
+SubType=0x13
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0009ff)=0x00209f
+Type=0x02b
+SubType=0x01
+XPM="14 11 4 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ffffff",
+"##  c #808080",
+"XX========================XX",
+"==************************==",
+"==**==********************==",
+"==**==****************==**==",
+"==**==######**********==**==",
+"==**====================**==",
+"==**====================**==",
+"==**====************====**==",
+"==**====************====**==",
+"==************************==",
+"XX========================XX"
+};
+String1=0x19,гостиница
+String2=0x04,hotel
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000a72)=0x002112
+Type=0x02b
+SubType=0x03
+XPM="14 11 19 2",
+"XX  c #000000",
+"==  c #f8fcf8",
+"**  c #000000",
+"##  c #008400",
+"%%  c #008800",
+"11  c #009400",
+"22  c #008000",
+"33  c #00dc00",
+"44  c #00e400",
+"55  c #007c00",
+"66  c #007400",
+"77  c #00c400",
+"88  c #007800",
+"99  c #007000",
+"00  c #00cc00",
+"AA  c #00b800",
+"BB  c #00b000",
+"CC  c #00b400",
+"DD  c #006400",
+"XXXXXXXXXXXXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXX====****==XXXX",
+"XXXXXXXXXX====****##**==XXXX",
+"XXXXXXXX==****%%11%%22**==XX",
+"XXXXXX==**33**%%11%%22**==XX",
+"XXXXXX==**44**##%%##5566**==",
+"XXXX==**443377**55558899**==",
+"XX==**770077AA11**6699**==XX",
+"XX==**BBCCBB1111**DD**==XXXX",
+"==******************==XXXXXX",
+"XX==================XXXXXXXX"
+};
+String1=0x19,стоянка
+String2=0x04,camp site
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000b69)=0x002209
+Type=0x02b
+SubType=0x05
+XPM="14 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXX====XXXXXXXXXXXX",
+"XXXXXXXX====****====XXXXXXXX",
+"XXXXXX==************==XXXXXX",
+"XX====****************====XX",
+"==**********====**********==",
+"XX====****==XXXX==****====XX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXXXX====XXXXXXXX====XXXXXX"
+};
+String1=0x19,навес
+String2=0x04,shelter
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000bba)=0x00225a
+Type=0x02c
+SubType=0x02
+XPM="13 13 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXX======XXXXXXXXXX",
+"XXXXXXXX==******==XXXXXXXX",
+"XXXX====**======**====XXXX",
+"XX==****==========****==XX",
+"==**==================**==",
+"==**********************==",
+"XX====**====**====**====XX",
+"XXXX==**====**====**==XXXX",
+"XXXX==**====**====**==XXXX",
+"XXXX==**====**====**==XXXX",
+"XX====**====**====**====XX",
+"==**********************==",
+"XX======================XX"
+};
+String1=0x19,музей
+String2=0x04,museum
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000c0e)=0x0022ae
+Type=0x02c
+SubType=0x03
+XPM="18 15 6 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #808080",
+"%%  c #800000",
+"11  c #008080",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX====XXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXX==****==XXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==**====**==XXXXXXXXXXXXXX",
+"XXXXXXXX==**==##====**==========XXXX",
+"XXXXXX==**====####==************==XX",
+"XXXX==**==##====##**==========**==XX",
+"XX==**====####====**==****==**==XXXX",
+"XX==**%%====##==**==========**==XXXX",
+"XXXX==**%%====**==******==**==XXXXXX",
+"XXXXXX==**%%==**==========**==XXXXXX",
+"XXXXXXXX==****%%%%%%%%%%**==XXXXXXXX",
+"XXXXXXXXXX==**1111111111**==XXXXXXXX",
+"XXXXXXXXXXXX==============XXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,библиотека
+String2=0x04,library
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000cc5)=0x002365
+Type=0x02c
+SubType=0x04
+XPM="16 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX========XXXXXXXXXX",
+"XXXXXXXXXXXX==********==XXXXXXXX",
+"XXXX==========**====**======XXXX",
+"XX==************************==XX",
+"XX==************====********==XX",
+"XX==**********==****==******==XX",
+"XX==**********==****==******==XX",
+"XX==************====********==XX",
+"XX==************************==XX",
+"XXXX========================XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,достопримечательность
+String2=0x04,landmark
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000d27)=0x0023c7
+Type=0x02c
+SubType=0x05
+XPM="13 14 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #c0c0c0",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXX====XXXXXXXXXX",
+"XXXXXXXXXX==****==XXXXXXXX",
+"XXXXXXXXXX==**##**==XXXXXX",
+"XXXXXXXXXX==****==XXXXXXXX",
+"XXXX========**========XXXX",
+"XX==******************==XX",
+"XX==**##############**==XX",
+"XX==**##**##**##**##**==XX",
+"XX==**##############**==XX",
+"XX==**##**##**##**##**==XX",
+"XX==******************==XX",
+"XXXX==================XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,образование
+String2=0x04,education
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000db5)=0x002455
+Type=0x02c
+SubType=0x0b
+DayXPM="15 16 5 2",
+"XX  c #000000",
+"==  c #000100",
+"**  c #ffca00",
+"##  c #ffff6a",
+"%%  c #ff9500",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXX******XXXXXXXXXXXX",
+"XXXXXXXXXX**####****XXXXXXXXXX",
+"XXXXXXXX**####********XXXXXXXX",
+"XXXX****####********%%****XXXX",
+"XX**######**##********%%%%**XX",
+"**########**********%%**%%%%**",
+"########**##******%%**%%%%%%%%",
+"**######************%%%%**%%%%",
+"**####**********%%%%%%%%%%%%%%",
+"XX****************%%%%%%%%%%XX",
+"XXXX****%%**%%%%%%%%%%%%%%XXXX"
+};
+NightXPM="15 16 4 2",
+"XX  c #000000",
+"==  c #ffca00",
+"**  c #ffff6a",
+"##  c #ff9500",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXX======XXXXXXXXXXXX",
+"XXXXXXXXXX==****====XXXXXXXXXX",
+"XXXXXXXX==****========XXXXXXXX",
+"XXXX====****========##====XXXX",
+"XX==******==**========####==XX",
+"==********==========##==####==",
+"********==**======##==########",
+"==******============####==####",
+"==****==========##############",
+"XX================##########XX",
+"XXXX====##==##############XXXX"
+};
+String1=0x19,храм
+String2=0x04,church
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 00 80 FF 00 80 FF                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000ef2)=0x002592
+Type=0x02d
+SubType=0x01
+XPM="17 14 4 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #00ffff",
+"##  c #00ff00",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX==============XXXXXXXXXXXXXXXX",
+"XXXX==**********==XXXXXXXXXXXXXXXX",
+"XXXX==**==**==**==============XXXX",
+"XXXX==**********==##########==XXXX",
+"XXXX==**==**==**==##==##==##==XXXX",
+"XXXX==**======**==##########==XXXX",
+"XXXX==**********==##======##==XXXX",
+"XXXX==============##==##==##==XXXX",
+"XXXXXXXXXXXXXXXX==##########==XXXX",
+"XXXXXXXXXXXXXXXX==============XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,театр
+String2=0x04,theatre
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000f94)=0x002634
+Type=0x02d
+SubType=0x02
+XPM="15 15 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXX====XXXXXXXXXX",
+"XXXX==******====****==XXXXXXXX",
+"XX==**======****====**==XXXXXX",
+"XX==**==============**==XXXXXX",
+"XXXX==**************====XXXXXX",
+"XXXX==******************==XXXX",
+"XXXX==**==**==**==********==XX",
+"XXXX==**==**==**==**XX****==XX",
+"XXXX==**==**==**==**XX****==XX",
+"XXXX==**==**==**==********==XX",
+"XXXX==******************==XXXX",
+"XXXX==**************====XXXXXX",
+"XXXXXX==============XXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,бар
+String2=0x04,bar
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x000feb)=0x00268b
+Type=0x02d
+SubType=0x03
+XPM="17 14 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #c0c0c0",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX====XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==****==XXXX====XXXX",
+"XX==XXXXXXXX==********====****==XX",
+"XX**==XXXXXX==********==********==",
+"XX##==XX==XXXX==****====********==",
+"XX####==**====**********##****==XX",
+"XX######******************====XXXX",
+"XX######******************==XXXXXX",
+"XX####==**====************==XXXXXX",
+"XX##==XX======************====XXXX",
+"XX**==XX==********************==XX",
+"XX==XXXXXX====================XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,кинотеатр
+String2=0x04,cinema
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001090)=0x002730
+Type=0x02e
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,магазин
+String2=0x04,shop
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00110e)=0x0027ae
+Type=0x02e
+SubType=0x01
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,универмаг
+String2=0x04,department store
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00119a)=0x00283a
+Type=0x02e
+SubType=0x02
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,продукты
+String2=0x04,grocery
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00121c)=0x0028bc
+Type=0x02e
+SubType=0x03
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,магазин
+String2=0x04,general
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00129d)=0x00293d
+Type=0x02e
+SubType=0x04
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,троговый центр
+String2=0x04,shoping center
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00132c)=0x0029cc
+Type=0x02e
+SubType=0x05
+XPM="14 14 3 2",
+"XX  c #ffffff",
+"==  c #000000",
+"**  c #00c000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XX========================XX",
+"XX==XXXXXXXXXXXXXXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XX****************XX==XX",
+"XX==XX****************XX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXXXXXXXXXXXXXX==XX",
+"XX========================XX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,аптека
+String2=0x04,pharmacy
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001387)=0x002a27
+Type=0x02e
+SubType=0x06
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,магазин
+String2=0x04,Convenience
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00140c)=0x002aac
+Type=0x02e
+SubType=0x07
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,одежда
+String2=0x04,clothes
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00148c)=0x002b2c
+Type=0x02e
+SubType=0x08
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,хозяйственный
+String2=0x04,house & garden
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00151a)=0x002bba
+Type=0x02e
+SubType=0x09
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,хозяйственный
+String2=0x04,do-it-yourself
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0015a8)=0x002c48
+Type=0x02e
+SubType=0x0a
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,овощной
+String2=0x04,organic
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001629)=0x002cc9
+Type=0x02e
+SubType=0x0b
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,компьютеры
+String2=0x04,computers
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0016af)=0x002d4f
+Type=0x02e
+SubType=0x0c
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,мясо
+String2=0x04,butcher
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00172d)=0x002dcd
+Type=0x02e
+SubType=0x0d
+XPM="13 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXX====XXXX",
+"XXXX==============****==XX",
+"XX==******************==XX",
+"XX==**==**==**==**====XXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**==**==**==**==XXXXXX",
+"XX==**************==XXXXXX",
+"XX==============**==XXXXXX",
+"XX==################==XXXX",
+"XX==####========####==XXXX",
+"XXXX====XXXXXXXX====XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,магазин
+String2=0x04,shop
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0017ab)=0x002e4b
+Type=0x02f
+SubType=0x01
+XPM="12 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #330099",
+"XXXX==========XXXXXXXXXX",
+"XX==**********==XXXXXXXX",
+"==****======****==XXXXXX",
+"==****======******==XXXX",
+"==****======****==**==XX",
+"==**************==**==XX",
+"==**************==**==XX",
+"==**************==**==XX",
+"==**************====**==",
+"==**************====**==",
+"==******************==XX",
+"XX==================XXXX"
+};
+String1=0x19,АЗС
+String2=0x04,fuel
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0017ec)=0x002e8c
+Type=0x02f
+SubType=0x03
+XPM="16 14 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #ff0000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==============XXXX",
+"XXXXXXXXXXXX==**************==XX",
+"XXXXXXXXXX==******************==",
+"XX========********************==",
+"==****************************==",
+"==****************************==",
+"==**************************==XX",
+"XX==******==========******==XXXX",
+"XX==******==XXXXXX==******==XXXX",
+"XXXX======XXXXXXXXXX======XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,автосервис
+String2=0x04,auto repair
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00184e)=0x002eee
+Type=0x02f
+SubType=0x05
+XPM="16 12 3 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ffffff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XX============================XX",
+"XX====********************====XX",
+"XX==**==****************==**==XX",
+"XX==****==************==****==XX",
+"XX==******==********==******==XX",
+"XX==******====****====******==XX",
+"XX==****==****====****==****==XX",
+"XX==**==****************==**==XX",
+"XX====********************====XX",
+"XX============================XX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,почта
+String2=0x04,post office
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0018a4)=0x002f44
+Type=0x02f
+SubType=0x06
+XPM="15 15 3 2",
+"XX  c #000000",
+"==  c #00ff00",
+"**  c #20ff20",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXX====XX==XX==**XXXXXXXX",
+"XXXXXXXX==XXXX==XXXX==XXXXXXXX",
+"XXXXXXXX====XX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XX====XXXXXXXX",
+"XXXXXXXX==XXXX==XXXX==XXXXXXXX",
+"XXXXXXXX====XX==XX====XXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,банк
+String2=0x04,bank
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0018fd)=0x002f9d
+Type=0x02f
+SubType=0x07
+XPM="16 14 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #ff0000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==============XXXX",
+"XXXXXXXXXXXX==**************==XX",
+"XXXXXXXXXX==******************==",
+"XX========********************==",
+"==****************************==",
+"==****************************==",
+"==**************************==XX",
+"XX==******==========******==XXXX",
+"XX==******==XXXXXX==******==XXXX",
+"XXXX======XXXXXXXXXX======XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,запчасти
+String2=0x04,auto parts
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00195c)=0x002ffc
+Type=0x02f
+SubType=0x08
+XPM="14 14 7 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ffff00",
+"##  c #0000ff",
+"%%  c #808000",
+"11  c #808080",
+"22  c #000080",
+"XXXX====================XXXX",
+"XX==********************==XX",
+"==**====================**==",
+"==**==################==**==",
+"==**==############==##==**==",
+"==**==##########==##====**==",
+"==**====================**==",
+"==************************==",
+"==**%%%%************%%%%**==",
+"==**1122****2222****2211**==",
+"==************************==",
+"============================",
+"XX======XXXXXXXXXXXX======XX",
+"XX======XXXXXXXXXXXX======XX"
+};
+String1=0x19,остановка
+String2=0x04,stop
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0019ef)=0x00308f
+Type=0x02f
+SubType=0x0b
+XPM="14 16 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #0000ff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX====================XXXX",
+"XX==********************==XX",
+"XX==**================**==XX",
+"XX==**==##########====**==XX",
+"XX==**====##======##==**==XX",
+"XX==**====##======##==**==XX",
+"XX==**====##======##==**==XX",
+"XX==**====########====**==XX",
+"XX==**====##==========**==XX",
+"XX==**====##==========**==XX",
+"XX==**==######========**==XX",
+"XX==**================**==XX",
+"XX==********************==XX",
+"XXXX====================XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,парковка
+String2=0x04,parking
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001a86)=0x003126
+Type=0x02f
+SubType=0x0e
+XPM="16 16 14 2",
+"XX  c #000000",
+"==  c #00108f",
+"**  c #000c89",
+"##  c #000a89",
+"%%  c #000888",
+"11  c #2200fe",
+"22  c #000100",
+"33  c #ffffff",
+"44  c #24d20b",
+"55  c #20bc0a",
+"66  c #1b9b09",
+"77  c #010300",
+"88  c #090300",
+"99  c #010400",
+"XXXXXXXXXXXXXX==**XXXXXXXXXXXXXX",
+"XXXXXXXX##%%11====######XXXXXXXX",
+"XXXXXX####%%==11==########XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XX11XX##XX11XX##XXXX##XX11XX##XX",
+"##XXXX11XX##XXXX11XX11XX##XXXX11",
+"11XX##XXXXXXXXXXXXXXXXXXXX11XX##",
+"##XX11XXXX222222222222XXXX##XX11",
+"11XXXXXX2233333322333322XXXXXX##",
+"XXXXXX22333333332233333322XXXXXX",
+"XX2222222222222222222222222222XX",
+"22444444444444444455666666666622",
+"22444444444444444455556666666622",
+"22442222224444444455662222226622",
+"XX2222772222222222222222227722XX",
+"XXXX228877XXXXXXXXXXXX227799XXXX"
+};
+String1=0x19,автомойка
+String2=0x04,car wash
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001b53)=0x0031f3
+Type=0x02f
+SubType=0x12
+XPM="16 13 3 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ffffff",
+"XX============================XX",
+"==****************************==",
+"==****====================****==",
+"==**======************======**==",
+"==**======**==****==**======**==",
+"==**********========**********==",
+"==********====****====********==",
+"==******====**====**====******==",
+"==****======**====**======****==",
+"==****========****========****==",
+"==****====================****==",
+"==****************************==",
+"XX============================XX"
+};
+String1=0x19,телефон
+String2=0x04,telephone
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001bad)=0x00324d
+Type=0x02f
+SubType=0x15
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #808080",
+"**  c #c0c0c0",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXX============XXXXXXXXXX",
+"XXXXXX========****========XXXXXX",
+"XXXX========================XXXX",
+"XXXX========================XXXX",
+"XXXXXX====**==****==**====XXXXXX",
+"XXXXXXXX==**==****==**==XXXXXXXX",
+"XXXXXXXX==**==****==**==XXXXXXXX",
+"XXXXXXXX==**==****==**==XXXXXXXX",
+"XXXXXXXX==**==****==**==XXXXXXXX",
+"XXXXXXXX==**==****==**==XXXXXXXX",
+"XXXXXXXX======****======XXXXXXXX",
+"XXXXXXXXXX============XXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,помойка
+String2=0x04,recycling
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001c13)=0x0032b3
+Type=0x02f
+SubType=0x17
+XPM="16 16 12 2",
+"XX  c #000000",
+"==  c #030303",
+"**  c #ffffff",
+"##  c #b5bab5",
+"%%  c #7bcb6b",
+"11  c #006521",
+"22  c #7bcbd6",
+"33  c #7bcbff",
+"44  c #949694",
+"55  c #ff9611",
+"66  c #ff0000",
+"77  c #2e2a27",
+"XXXX========================XXXX",
+"XX==******##******##********==XX",
+"==******%%%%%%%%%%%%%%********==",
+"==****%%111111**111111%%******==",
+"==****111111111111111111******==",
+"==****112233334433223311******==",
+"==****113333334433333311******==",
+"==****111111111111111111******==",
+"==****111111111111111111******==",
+"==****555555555555555555******==",
+"==****11**1111661111**11******==",
+"==****111111111111111111444444==",
+"==****%%11%%11%%11%%11%%**4444==",
+"==******77777777777777****4444==",
+"XX==**7777**********7777**44==XX",
+"XXXX========================XXXX"
+};
+String1=0x19,ж/д станция
+String2=0x04,railroad station
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001ce2)=0x003382
+Type=0x030
+SubType=0x02
+XPM="14 14 3 2",
+"XX  c #ffffff",
+"==  c #000000",
+"**  c #ff0000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XX========================XX",
+"XX==XXXXXXXXXXXXXXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XX****************XX==XX",
+"XX==XX****************XX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXX****XXXXXXXX==XX",
+"XX==XXXXXXXXXXXXXXXXXXXX==XX",
+"XX========================XX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,медицина
+String2=0x04,medicine
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001d3f)=0x0033df
+Type=0x030
+SubType=0x03
+XPM="16 16 5 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #0000ff",
+"%%  c #00ffff",
+"XXXXXXXXXX======XXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==****======XXXXXXXXXX",
+"XXXXXXXXXX==**##******==XXXXXXXX",
+"XXXXXXXXXX==**####****==XXXXXXXX",
+"XXXXXXXXXX==******====XXXXXXXXXX",
+"XX==========**================XX",
+"==****************************==",
+"==**%%%%%%%%%%%%%%%%%%%%%%%%**==",
+"==**%%####%%%%####%%%%####%%**==",
+"==**%%####%%%%####%%%%####%%**==",
+"==**%%%%%%%%%%%%%%%%%%%%%%%%**==",
+"==**%%####%%%%******%%####%%**==",
+"==**%%####%%%%******%%####%%**==",
+"==**%%%%%%%%%%******%%%%%%%%**==",
+"==****************************==",
+"XX============================XX"
+};
+String1=0x19,учреждение
+String2=0x04,government institution
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001dfb)=0x00349b
+Type=0x030
+SubType=0x04
+XPM="15 11 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXX==========XXXX",
+"XXXXXXXXXX========******==XXXX",
+"XXXX========******====**====XX",
+"XXXX==******==**====**==**====",
+"XX====**======**==**======**==",
+"====**==**====**====******====",
+"==**======**==**============XX",
+"====******====**====XXXXXXXXXX",
+"XX==========******======XXXXXX",
+"XXXXXX==**************==XXXXXX",
+"XXXXXX==================XXXXXX"
+};
+String1=0x19,суд
+String2=0x04,court
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001e44)=0x0034e4
+Type=0x043
+XPM="14 13 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXX========XXXXXXXXXX",
+"XXXXXXXX==********==XXXXXXXX",
+"XXXXXXXX==**====**==XXXXXXXX",
+"XXXXXXXX==********==XXXXXXXX",
+"XXXXXX======****======XXXXXX",
+"XXXX==****************==XXXX",
+"XXXXXX======****======XXXXXX",
+"XXXXXXXXXX==****==XXXXXXXXXX",
+"XX==XXXXXX==****==XXXXXX==XX",
+"==**==XXXX==****==XXXX==**==",
+"==****====********====****==",
+"XX==********************==XX",
+"XXXX====================XXXX"
+};
+String1=0x19,пристань
+String2=0x04,marina
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001e9b)=0x00353b
+Type=0x045
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX==XX==XX==XXXXXX==XXXXXXXX",
+"XXXX==**==**==**==XX==**==XXXXXX",
+"XXXX==**==**==**====****==XXXXXX",
+"XXXX==**==**==**==******==XXXXXX",
+"XXXX==**********==******==XXXXXX",
+"XXXXXX==******====******==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXXXX==**==XXXX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXX==******==XX==****==XXXXXX",
+"XXXXXXXX======XXXXXX====XXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,ресторан
+String2=0x04,restaurant
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001f02)=0x0035a2
+Type=0x046
+XPM="15 15 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXX======XXXX====XXXXXXXXXX",
+"XXXX==******====****==XXXXXXXX",
+"XX==**======****====**==XXXXXX",
+"XX==**==============**==XXXXXX",
+"XXXX==**************====XXXXXX",
+"XXXX==******************==XXXX",
+"XXXX==**==**==**==********==XX",
+"XXXX==**==**==**==**XX****==XX",
+"XXXX==**==**==**==**XX****==XX",
+"XXXX==**==**==**==********==XX",
+"XXXX==******************==XXXX",
+"XXXX==**************====XXXXXX",
+"XXXXXX==============XXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,бар
+String2=0x1a,bar
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001f59)=0x0035f9
+Type=0x04a
+XPM="16 8 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXX================XXXXXXXX",
+"XXXXXX==****************==XXXXXX",
+"XXXXXXXX====**====**====XXXXXXXX",
+"XX========**========**========XX",
+"==****************************==",
+"XX====**================**====XX",
+"XXXX==**==XXXXXXXXXXXX==**==XXXX",
+"XXXXXX==XXXXXXXXXXXXXXXX==XXXXXX"
+};
+String1=0x19,стоянка
+String2=0x04,picnic site
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001fa1)=0x003641
+Type=0x04c
+XPM="12 12 3 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ffffff",
+"XXXXXX============XXXXXX",
+"XXXX==************==XXXX",
+"XX==******====******==XX",
+"==********====********==",
+"==********************==",
+"==********====********==",
+"==********====********==",
+"==********====********==",
+"==********====********==",
+"XX==******====******==XX",
+"XXXX==************==XXXX",
+"XXXXXX============XXXXXX"
+};
+String1=0x19,информация
+String2=0x04,information
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x001ff0)=0x003690
+Type=0x04e
+XPM="14 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0033cc",
+"XXXXXX====XXXXXXXX====XXXXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX==****==XXXX==****==XXXX",
+"XXXX========XXXX==========XX",
+"XX==********====********====",
+"==**==****==****==****==**==",
+"==**==****==**====****======",
+"==**==****==**==********====",
+"XX====****====************==",
+"XXXX==****==XX====****======",
+"XXXX==****==XXXX==****==XXXX",
+"XXXXXX====XXXXXX==========XX"
+};
+String1=0x19,туалет
+String2=0x04,toilet
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002042)=0x0036e2
+Type=0x056
+XPM="11 11 4 2",
+"XX  c #000000",
+"==  c #ff0000",
+"**  c #ffffff",
+"##  c #000000",
+"XXXXXX==========XXXXXX",
+"XXXX==**********==XXXX",
+"XX==**************==XX",
+"==**######**######**==",
+"==**##******##**##**==",
+"==**######**##**##**==",
+"==**##**##**##**##**==",
+"==**######**######**==",
+"XX==**************==XX",
+"XXXX==**********==XXXX",
+"XXXXXX==========XXXXXX"
+};
+String1=0x19,ограничение скорости
+String2=0x04,speed limit area
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0020c1)=0x003761
+Type=0x058
+XPM="14 9 4 2",
+"XX  c #000000",
+"==  c #990000",
+"**  c #ff0000",
+"##  c #ffff00",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"****====****####****####****",
+"****====****####****####****",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"XXXX====XXXXXXXXXXXXXXXXXXXX",
+"XXXX====XXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,ворота/шлакбаум
+String2=0x04,gate
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00212c)=0x0037cc
+Type=0x064
+SubType=0x01
+XPM="16 16 20 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #f8f040",
+"%%  c #f8f440",
+"11  c #f8ec38",
+"22  c #f8e830",
+"33  c #f8e428",
+"44  c #f8e020",
+"55  c #f8dc20",
+"66  c #f8d818",
+"77  c #f8d410",
+"88  c #f8f448",
+"99  c #f8e430",
+"00  c #f8e028",
+"AA  c #f8d810",
+"BB  c #f8dc18",
+"CC  c #f8d010",
+"DD  c #f8d008",
+"EE  c #f8cc08",
+"XXXX========================XXXX",
+"XX==************************==XX",
+"==**##%%##112233445555666677**==",
+"==**88****##1199005555****77**==",
+"==**%%88****22330055****6677**==",
+"==**######****3344****666677**==",
+"==**111111****0044****666677**==",
+"==**999999****4455****66AA77**==",
+"==**000000****5555****667777**==",
+"==**444444****55BB****AA7777**==",
+"==**555555****BB66****7777CC**==",
+"==**BBBB****666666AA****CCDD**==",
+"==**66****666666777777****DD**==",
+"==**AAAAAA7777777777CCDDDDEE**==",
+"XX==************************==XX",
+"XXXX========================XXXX"
+};
+String1=0x19,мост
+String2=0x04,bridge
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002287)=0x003927
+Type=0x064
+SubType=0x02
+XPM="10 10 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXXXX====XXXXXX",
+"XXXXXX====****==XXXX",
+"XXXX==********==XXXX",
+"XX==**********==XXXX",
+"==**************==XX",
+"==****====********==",
+"XX==**====******==XX",
+"XX==************==XX",
+"XX==************==XX",
+"XXXX============XXXX"
+};
+String1=0x19,дом
+String2=0x04,building
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0022c5)=0x003965
+Type=0x064
+SubType=0x03
+XPM="13 14 5 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #c5c5c5",
+"%%  c #b86400",
+"XXXXXXXX==========XXXXXXXX",
+"XXXXXX==**********==XXXXXX",
+"XXXX==**##########**==XXXX",
+"XX==**##############**==XX",
+"XX==**##**********##**==XX",
+"XX==**##############**==XX",
+"XX==**##############**==XX",
+"XX==**##**********##**==XX",
+"XX==**##############**==XX",
+"XX==**##############**==XX",
+"XX==******************==XX",
+"==**%%%%%%%%%%%%%%%%%%**==",
+"==**********************==",
+"=========================="
+};
+String1=0x19,кладбище
+String2=0x04,cemetery
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002353)=0x0039f3
+Type=0x064
+SubType=0x06
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #0000ff",
+"**  c #ffffff",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX======XXXXXXXXXXXX======XXXX",
+"XXXX==****====XXXX====****==XXXX",
+"XXXX==********====********==XXXX",
+"XXXXXX======********======XXXXXX",
+"XXXX==********====********==XXXX",
+"XXXX==****====XXXX====****==XXXX",
+"XXXX======XXXXXXXXXXXX======XXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,брод
+String2=0x04,ford
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0023b1)=0x003a51
+Type=0x064
+SubType=0x0b
+XPM="16 16 4 2",
+"XX  c #000000",
+"==  c #b5bab5",
+"**  c #000000",
+"##  c #319a00",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXX========================XXXX",
+"XX============================XX",
+"XX============================XX",
+"XX==========********==========XX",
+"XX==========********==========XX",
+"XX============================XX",
+"##============================##",
+"################################",
+"################################",
+"################################",
+"################################",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,бункер
+String2=0x04,bunker
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002456)=0x003af6
+Type=0x064
+SubType=0x0c
+XPM="16 16 85 2",
+"XX  c #ffffff",
+"==  c #b4b4b4",
+"**  c #ededed",
+"##  c #e3e3e3",
+"%%  c #f6f6f6",
+"11  c #666666",
+"22  c #000000",
+"33  c #464646",
+"44  c #fafafa",
+"55  c #fdfdfd",
+"66  c #777777",
+"77  c #0b0b0b",
+"88  c #bababa",
+"99  c #e6e6e6",
+"00  c #323232",
+"AA  c #060606",
+"BB  c #909090",
+"CC  c #fbfbfb",
+"DD  c #575757",
+"EE  c #070707",
+"FF  c #535353",
+"GG  c #f4f4f4",
+"HH  c #f8f8f8",
+"II  c #343434",
+"JJ  c #020202",
+"KK  c #c1c1c1",
+"LL  c #fcfcfc",
+"MM  c #585858",
+"NN  c #010101",
+"OO  c #9d9d9d",
+"PP  c #717171",
+"QQ  c #181818",
+"RR  c #7a7a7a",
+"SS  c #efefef",
+"TT  c #2f2f2f",
+"UU  c #313131",
+"VV  c #090909",
+"WW  c #e4e4e4",
+"YY  c #e8e8e8",
+"ZZ  c #0e0e0e",
+"aa  c #030303",
+"bb  c #bebebe",
+"cc  c #797979",
+"dd  c #f3f3f3",
+"ee  c #3a3a3a",
+"ff  c #484848",
+"gg  c #9e9e9e",
+"hh  c #161616",
+"ii  c #696969",
+"jj  c #d4d4d4",
+"kk  c #959595",
+"ll  c #eaeaea",
+"mm  c #2a2a2a",
+"nn  c #737373",
+"oo  c #474747",
+"pp  c #333333",
+"qq  c #f2f2f2",
+"rr  c #878787",
+"ss  c #dedede",
+"tt  c #050505",
+"uu  c #262626",
+"vv  c #565656",
+"ww  c #121212",
+"xx  c #171717",
+"yy  c #646464",
+"zz  c #606060",
+"!!  c #080808",
+"@@  c #c3c3c3",
+"$$  c #d2d2d2",
+"^^  c #5b5b5b",
+"&&  c #fefefe",
+"((  c #6a6a6a",
+"))  c #acacac",
+"--  c #c8c8c8",
+"++  c #0d0d0d",
+"//  c #525252",
+"<<  c #f9f9f9",
+">>  c #919191",
+",,  c #bdbdbd",
+"::  c #b1b1b1",
+"X=  c #747474",
+"X*  c #afafaf",
+"X#  c #040404",
+"X%  c #aeaeae",
+"X1  c #cfcfcf",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==**XXXXXX##XXXXXXXXXX",
+"XXXXXX%%1122334455667788XXXXXXXX",
+"XXXX990022AABBXXCCDD22EEFFGGXXXX",
+"XXHHII22JJKKXXXXXXLLMM22NNOOXXXX",
+"XXPP22QQIIRRXXXXXXSSTTUU22VVWWXX",
+"YYZZaabbSS00ccXXddeeff44gghhiiXX",
+"XXjjkkXXXXllmmnnooppddXXXXqqrr**",
+"XXXXXXXXXXXXssttuu99XXXXXXXXXXXX",
+"XXXXXXXXXXLLvvwwxxyy55XXXXXXXXXX",
+"XXXXXXXX55zz!!@@$$ww^^CCXXXXXXXX",
+"XXXXXX&&((JJ))XXXX--++//<<XXXXXX",
+"XXXXXXnn22>>XXXXXXXX,,!!ff%%XXXX",
+"XXXX::22X=XXXXXXXXXXXXX*X#ccXXXX",
+"XXXXHHX%&&XXXXXXXXXXXXXXX1ddXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,рудник
+String2=0x04,mine
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002694)=0x003d34
+Type=0x064
+SubType=0x11
+DayXPM="11 15 2 2",
+"XX  c #000000",
+"==  c #000000",
+"XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==XXXXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXX==========XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXX==============XXXX",
+"XXXX==XXXXXXXXXX==XXXX",
+"XXXX==XXXXXXXXXX==XXXX",
+"XX==================XX",
+"XXXXXXXXXXXXXXXXXXXXXX"
+};
+NightXPM="11 15 2 2",
+"XX  c #000000",
+"==  c #ff0000",
+"XXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXX==XXXXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXXXX==XX==XXXXXXXX",
+"XXXXXX==========XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXXXX==XXXXXX==XXXXXX",
+"XXXX==============XXXX",
+"XXXX==XXXXXXXXXX==XXXX",
+"XXXX==XXXXXXXXXX==XXXX",
+"XX==================XX",
+"XXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,башня
+String2=0x04,tower
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002713)=0x003db3
+Type=0x064
+SubType=0x1a
+XPM="12 17 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"##  c #666666",
+"XX======XXXXXXXXXXXXXXXX",
+"==******==XXXXXXXXXXXXXX",
+"XX==****==XXXXXXXXXX==XX",
+"XXXX==****==XXXXXX==**==",
+"XXXX==****========****==",
+"XXXXXX==**************==",
+"XXXXXX==************==XX",
+"XXXX==****##**======XXXX",
+"XX==****==##==XXXXXXXXXX",
+"==******==##==XXXXXXXXXX",
+"==****====##==XXXXXXXXXX",
+"==**==XX==##==XXXXXXXXXX",
+"XXXXXXXX==##==XXXXXXXXXX",
+"XXXXXXXX==##==XXXXXXXXXX",
+"XXXXXXXX==##==XXXXXXXXXX",
+"XXXXXX==######==XXXXXXXX",
+"XXXXXXXX======XXXXXXXXXX"
+};
+String1=0x19,ветряк
+String2=0x04,wind power
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0027a1)=0x003e41
+Type=0x064
+SubType=0x1b
+XPM="12 17 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #666666",
+"XX==XXXXXXXXXXXXXXXX==XX",
+"==**==XXXXXXXXXX====**==",
+"==****==XXXXXXXX==****==",
+"XX==****==XXXX==****==XX",
+"XXXX==****====****==XXXX",
+"XXXXXX==********==XXXXXX",
+"XXXXXX==********==XXXXXX",
+"XXXX==****####****==XXXX",
+"XX==****==####==****==XX",
+"==****==########==****==",
+"==**====########====**==",
+"XX==XX==########==XXXXXX",
+"XXXX==############==XXXX",
+"XXXX==############==XXXX",
+"XX==################==XX",
+"XX==################==XX",
+"XXXX================XXXX"
+};
+String1=0x19,мельница
+String2=0x04,windmill
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00282f)=0x003ecf
+Type=0x065
+SubType=0x08
+XPM="9 11 3 2",
+"XX  c #ffffff",
+"==  c #000000",
+"**  c #0000ff",
+"XXXXXX============",
+"******XXXX========",
+"**********XX======",
+"XX**XX**XX**XX====",
+"XX**XX**XXXX**XX==",
+"XX**XXXX**XX**XX==",
+"XXXX**XX**XXXX**XX",
+"==XX**XXXX**XX**XX",
+"==XX**XXXX**XXXX==",
+"==XX**XX==XX======",
+"====XX============"
+};
+String1=0x19,водопад
+String2=0x04,waterfall
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002875)=0x003f15
+Type=0x065
+SubType=0x0e
+XPM="16 16 49 2",
+"XX  c #000000",
+"==  c #999999",
+"**  c #919291",
+"##  c #dadada",
+"%%  c #e6f5fe",
+"11  c #ecf8fe",
+"22  c #f3fafe",
+"33  c #d9f1fe",
+"44  c #b1d0eb",
+"55  c #ffffff",
+"66  c #fefeff",
+"77  c #deeffb",
+"88  c #d1e6f7",
+"99  c #c2e0f6",
+"00  c #c9e7fa",
+"AA  c #7e7f81",
+"BB  c #d5e9f8",
+"CC  c #99ccff",
+"DD  c #84baea",
+"EE  c #3694e4",
+"FF  c #59a8e9",
+"GG  c #188ae5",
+"HH  c #d6e8f5",
+"II  c #0f82e0",
+"JJ  c #d9e8f5",
+"KK  c #666666",
+"LL  c #578fcc",
+"MM  c #2898ec",
+"NN  c #047adc",
+"OO  c #1367c8",
+"PP  c #5a595a",
+"QQ  c #336666",
+"RR  c #0066cc",
+"SS  c #3ca3ee",
+"TT  c #1595ec",
+"UU  c #284a65",
+"VV  c #065bc1",
+"WW  c #0289e7",
+"YY  c #464646",
+"ZZ  c #113557",
+"aa  c #0650b3",
+"bb  c #102742",
+"cc  c #0542a4",
+"dd  c #6699cc",
+"ee  c #333333",
+"ff  c #00132a",
+"gg  c #3b76b9",
+"hh  c #000f20",
+"ii  c #003366",
+"XX========================****XX",
+"==##%%%%1111222222221111%%3344**",
+"==%%5555555555555566%%77889900AA",
+"==%%556622BBCCDDEEFF4499888800AA",
+"**999999FFEEGGGGDD9988HHHHBB00AA",
+"**9944EEGGIIIIDDJJJJJJJJJJBBBBKK",
+"AADDGGGGIIIILLJJJJJJHHHHBBBB77KK",
+"AAMMGGIINNOODDHHHHHHHHBBBB77%%PP",
+"QQGGGGIIRROO44BBBBSSMMTTBB7711PP",
+"UUMMIINNVVVV88FFSSMMWW0077%%11YY",
+"ZZGGIINNaaVVSSMMTTTTWW77%%2222YY",
+"bbEEIINNccaaIITTWWNNNNHH222211YY",
+"bbLLNNNNaaccVVWWNNRRRRddJJ22%%ee",
+"ffddaaOOaaccccVVNNRRVVggLL4400hh",
+"ffiiddddLLggggggggggggLLddddiihh",
+"XXffffffhhhhhhhhhhhhhhhhhhhhhhXX"
+};
+String1=0x19,порог
+String2=0x04,rapid
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002a36)=0x0040d6
+Type=0x065
+SubType=0x11
+XPM="12 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000b5",
+"XXXX================XXXX",
+"XXXX==************==XXXX",
+"XXXX==************==XXXX",
+"XXXX==************==XXXX",
+"XXXX==************==XXXX",
+"XXXX======****======XXXX",
+"XXXXXX==****====XXXXXXXX",
+"XXXXXX====****====XXXXXX",
+"XXXXXXXX====****==XXXXXX",
+"XXXXXX====****====XXXXXX",
+"XXXXXX==****====XXXXXXXX",
+"XXXXXX========XXXXXXXXXX"
+};
+String1=0x19,родник
+String2=0x04,spring
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002a7b)=0x00411b
+Type=0x065
+SubType=0x13
+XPM="16 16 2 2",
+"XX  c #0000ff",
+"==  c none",
+"============XXXXXXXX============",
+"================================",
+"================================",
+"==XXXXXXXXXXXXXXXXXXXXXXXXXXXX==",
+"================================",
+"================================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"================================",
+"================================",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"================================",
+"================================",
+"==XXXXXXXXXXXXXXXXXXXXXXXXXXXX==",
+"================================",
+"================================",
+"============XXXXXXXX============"
+};
+String1=0x04,wetland
+String2=0x19,болото
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002ad5)=0x004175
+Type=0x065
+SubType=0x14
+XPM="16 16 54 2",
+"XX  c #000000",
+"==  c #999999",
+"**  c #959595",
+"##  c #dadada",
+"%%  c #e5f5fe",
+"11  c #edf9ff",
+"22  c #f4fafe",
+"33  c #d9f1fe",
+"44  c #aed0e9",
+"55  c #8e8e8d",
+"66  c #ffffff",
+"77  c #fecf90",
+"88  c #ff7a04",
+"99  c #ffcc66",
+"00  c #d1e5f4",
+"AA  c #c5e2f7",
+"BB  c #cae7fb",
+"CC  c #848384",
+"DD  c #fdfeff",
+"EE  c #eaf4fd",
+"FF  c #deeffb",
+"GG  c #fea025",
+"HH  c #ff7403",
+"II  c #737373",
+"JJ  c #d6e8f6",
+"KK  c #d6ebfa",
+"LL  c #d9e9f5",
+"MM  c #dae5e9",
+"NN  c #ff6902",
+"OO  c #ff9900",
+"PP  c #ff6600",
+"QQ  c #666666",
+"RR  c #ff5701",
+"SS  c #5a595a",
+"TT  c #5cb5f3",
+"UU  c #3399ff",
+"VV  c #0d91ea",
+"WW  c #ff4301",
+"YY  c #007dde",
+"ZZ  c #454e52",
+"aa  c #99ccff",
+"bb  c #ff3300",
+"cc  c #fc7522",
+"dd  c #434343",
+"ee  c #0066cc",
+"ff  c #6699cc",
+"gg  c #333333",
+"hh  c #66ccff",
+"ii  c #3974b6",
+"jj  c #5188c2",
+"kk  c #c1d9ed",
+"ll  c #000e1f",
+"mm  c #003366",
+"nn  c #10161a",
+"XX======================******XX",
+"==##%%%%1111222222111111%%334455",
+"==%%6666666666666677889900AABBCC",
+"==%%66DD2222EEFF9988GG889900BBCC",
+"**AAAAAAAAAAAA9988GGGGGGHH99BBII",
+"55AA000000JJJJ888888GGHHHHHHKKII",
+"CCAA00LLLLLLLLLLMMNNOOPPJJKKFFQQ",
+"CCAA00LLLLLLLLLLMMNNOORRKKFF%%SS",
+"IIAAJJJJEETTUUVVMMNN88WWKKFFEESS",
+"IIBB%%44TTUUYYAAMMWWHHWWFFEEEEZZ",
+"QQBBaaTTVVVVYYFFFFGGbbccEE2222dd",
+"IITTUUVVVVYYYY00EEEEEE11222211dd",
+"ZZTTVVVVYYeeeeffJJ2222222222KKgg",
+"gghhYYYYYYeeeeiijj4400FFJJkk44ll",
+"ggmmffffjjjjiiiiiiiiiijjffffmmll",
+"XXnnllllllllllllllllnnllllllllXX"
+};
+String1=0x19,выход
+String2=0x04,egress
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002ca7)=0x004347
+Type=0x065
+SubType=0x15
+XPM="16 16 56 2",
+"XX  c #000000",
+"==  c #999999",
+"**  c #959595",
+"##  c #dadada",
+"%%  c #e5f5fe",
+"11  c #edf8ff",
+"22  c #f2fafe",
+"33  c #def0fc",
+"44  c #bacede",
+"55  c #8b8b8b",
+"66  c #ffffff",
+"77  c #ff9933",
+"88  c #ff7703",
+"99  c #ffa82e",
+"00  c #e5f2fb",
+"AA  c #daedfa",
+"BB  c #cee5f7",
+"CC  c #fdfeff",
+"DD  c #d3eafa",
+"EE  c #dfedf8",
+"FF  c #c5e3f8",
+"GG  c #d6e8f5",
+"HH  c #e8f2f8",
+"II  c #eaf5fc",
+"JJ  c #7e7e7e",
+"KK  c #dae9f5",
+"LL  c #ff9900",
+"MM  c #666666",
+"NN  c #ff6600",
+"OO  c #ff6c02",
+"PP  c #ff5a02",
+"QQ  c #5c5c5c",
+"RR  c #ff9966",
+"SS  c #ff4301",
+"TT  c #66ccff",
+"UU  c #38a7f2",
+"VV  c #209eef",
+"WW  c #a3d7f7",
+"YY  c #6dade2",
+"ZZ  c #0186e4",
+"aa  c #4d4e4d",
+"bb  c #ff3300",
+"cc  c #99ccff",
+"dd  c #0f98ee",
+"ee  c #434343",
+"ff  c #0066cc",
+"gg  c #333333",
+"hh  c #003333",
+"ii  c #001225",
+"jj  c #003366",
+"kk  c #6699cc",
+"ll  c #3399cc",
+"mm  c #3d7fc2",
+"nn  c #002961",
+"oo  c #000f20",
+"pp  c #00152a",
+"XX==========================**XX",
+"==##%%%%1111222222221111%%334455",
+"==%%66667788996666662200AABBBB55",
+"==%%66CC88998833DDBBDDEE00EEDD55",
+"**FFFFFF889988BBBBGGEEHHII00DDJJ",
+"55FFBBGG889988GGKKKKEE00HH00AAJJ",
+"55FFGGKK88LL88KKKKKKKKEEEE3333MM",
+"JJFFNNOO88LLOOPPPPGGKKKKAA3300QQ",
+"JJFFRROO888888SS77GGIITTUUVVIIQQ",
+"MMFFDDRRSS88SS77HHWWYYUUZZIIIIaa",
+"MMBBDDAARRbb77HHccUUVVddZZ2222ee",
+"QQDDAA000000IITTUUddZZZZZZ2211ee",
+"QQDD001122WWUUddddZZZZffffYY%%gg",
+"hhccUUUUVVddddZZZZZZffffffffYYii",
+"hhjjYYYYkkllmmmmmmmmmmmmkkkknnoo",
+"XXppppppppiiiiiiooooooooooooooXX"
+};
+String1=0x19,вход
+String2=0x04,put in
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x002e7f)=0x00451f
+Type=0x065
+SubType=0x16
+XPM="16 16 53 2",
+"XX  c #000000",
+"==  c #999999",
+"**  c #959595",
+"##  c #dadada",
+"%%  c #e5f4fe",
+"11  c #eef8fe",
+"22  c #f3fbff",
+"33  c #d7effe",
+"44  c #b7ccdc",
+"55  c #8a8a8a",
+"66  c #ffffff",
+"77  c #fee4c1",
+"88  c #ff7903",
+"99  c #ffcc99",
+"00  c #ddeffb",
+"AA  c #d1e6f5",
+"BB  c #c2e1f7",
+"CC  c #c9e6fa",
+"DD  c #ffa225",
+"EE  c #ebcba1",
+"FF  c #7c7c7c",
+"GG  c #d8e8f5",
+"HH  c #d5e9f8",
+"II  c #ff6902",
+"JJ  c #666666",
+"KK  c #dce5e8",
+"LL  c #ff9900",
+"MM  c #ff6802",
+"NN  c #5a5a5a",
+"OO  c #ff5402",
+"PP  c #86c5f2",
+"QQ  c #279def",
+"RR  c #1c9def",
+"SS  c #33a5f3",
+"TT  c #0186e4",
+"UU  c #4d4e4d",
+"VV  c #0e97ee",
+"WW  c #434343",
+"YY  c #ff2d00",
+"ZZ  c #99ccff",
+"aa  c #66ccff",
+"bb  c #0066cc",
+"cc  c #6fa9dc",
+"dd  c #333333",
+"ee  c #003333",
+"ff  c #001225",
+"gg  c #003366",
+"hh  c #6699cc",
+"ii  c #3399cc",
+"jj  c #3d7fc2",
+"kk  c #002961",
+"ll  c #000f20",
+"mm  c #00152a",
+"XX======================******XX",
+"==##%%%%1111222222111111%%334455",
+"==%%66667788996666661100AABBCC55",
+"==%%667788DD88EEAACCCCAAAAAACCFF",
+"**BBEE88DDDDDD88EEAAAAGGGGHHCCFF",
+"55BBIIIIIIDDIIIIIIGGGGGGGGHHHHJJ",
+"55BBAAKKIILLMMGGGGGGGGGGHHHH00JJ",
+"FFBBAAKKIILLMMGGGGGGGGHHHH00%%NN",
+"FFCCIIIIII88MMMMOOHHHHPPQQRR11NN",
+"JJCCEEOO888888OOEEBBSSQQTT%%11UU",
+"JJCC%%EEOO88OOEEBBQQRRVVTT1122WW",
+"JJHH00%%EEYYEEZZRRVVTTTTTT2211WW",
+"NN33%%1111CCaaVVVVTTTTbbbbcc%%dd",
+"eePPSSSSRRVVVVTTTTTTbbbbbbbbccff",
+"eeggcccchhiijjjjjjjjjjjjhhcckkll",
+"XXmmmmmmmmffffffllllllllllllllXX"
+};
+String1=0x19,вход/выход
+String2=0x04,put_in/egress
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00305a)=0x0046fa
+Type=0x065
+SubType=0x17
+XPM="16 16 182 2",
+"XX  c #999999",
+"==  c #999999",
+"**  c #989899",
+"##  c #989798",
+"%%  c #969696",
+"11  c #959595",
+"22  c #939494",
+"33  c #dadada",
+"44  c #e4f6ff",
+"55  c #e6f7ff",
+"66  c #ebf8ff",
+"77  c #effaff",
+"88  c #f2fbff",
+"99  c #f3fbff",
+"00  c #f0faff",
+"AA  c #edf9ff",
+"BB  c #eaf8ff",
+"CC  c #e5f6ff",
+"DD  c #d9f1fe",
+"EE  c #b7ccdc",
+"FF  c #8d8d8c",
+"GG  c #ffffff",
+"HH  c #ffc2a5",
+"II  c #ff7404",
+"JJ  c #ff7304",
+"KK  c #eff7fd",
+"LL  c #dfeffb",
+"MM  c #d0e8f9",
+"NN  c #c2e0f7",
+"OO  c #c6e7fc",
+"PP  c #868686",
+"QQ  c #989898",
+"RR  c #fdfeff",
+"SS  c #f8fbfe",
+"TT  c #f5d7cc",
+"UU  c #ff7205",
+"VV  c #ffcc33",
+"WW  c #ff6305",
+"YY  c #d3c6c6",
+"ZZ  c #cce3f5",
+"aa  c #d1e6f6",
+"bb  c #cee5f7",
+"cc  c #c8e8fb",
+"dd  c #7f7f7f",
+"ee  c #949493",
+"ff  c #c1e3fa",
+"gg  c #bfdff6",
+"hh  c #c5e0f5",
+"ii  c #c7e1f5",
+"jj  c #ffa243",
+"kk  c #ff6d04",
+"ll  c #ff5f05",
+"mm  c #ff8e0f",
+"nn  c #d6e8f5",
+"oo  c #d7e9f5",
+"pp  c #d4e8f7",
+"qq  c #cbe9fb",
+"rr  c #767777",
+"ss  c #8e8e8e",
+"tt  c #c3e3f9",
+"uu  c #cee3f4",
+"vv  c #d4e6f4",
+"ww  c #ddc9c4",
+"xx  c #ff6905",
+"yy  c #ff9928",
+"zz  c #ff8c0a",
+"!!  c #ff5906",
+"@@  c #e0cbc5",
+"$$  c #d8e9f6",
+"^^  c #d5e9f8",
+"&&  c #d2ebfb",
+"((  c #6f6e6e",
+"))  c #888788",
+"--  c #c6e3f7",
+"++  c #dae9f4",
+"//  c #ff8212",
+"<<  c #ff7909",
+">>  c #ff5506",
+",,  c #d7e9f7",
+"::  c #d7ebfa",
+"X=  c #dbeffc",
+"X*  c #666666",
+"X#  c #818181",
+"X%  c #c7e2f7",
+"X1  c #d3e7f5",
+"X2  c #e1cbc5",
+"X3  c #ff5f06",
+"X4  c #ff6708",
+"X5  c #ff5006",
+"X6  c #dfccc8",
+"X7  c #dbedfb",
+"X8  c #e6f2fc",
+"X9  c #5e5d5d",
+"X0  c #797979",
+"XA  c #c7e3f8",
+"XB  c #d3e7f7",
+"XC  c #ff9a0b",
+"XD  c #ff4d07",
+"XE  c #e1f0fb",
+"XF  c #ecf5fd",
+"XG  c #565556",
+"XH  c #717170",
+"XI  c #c9e5fa",
+"XJ  c #d3e8f8",
+"XK  c #ff7f04",
+"XL  c #ff8a04",
+"XM  c #ff6704",
+"XN  c #ff5e04",
+"XO  c #ff7507",
+"XP  c #ff4b07",
+"XQ  c #e9f4fd",
+"XR  c #ebf7fd",
+"XS  c #4d4e4d",
+"XT  c #696869",
+"XU  c #cee7fa",
+"XV  c #d5e9fa",
+"XW  c #ff2d00",
+"XY  c #ff7706",
+"XZ  c #ff7006",
+"Xa  c #ff5c06",
+"Xb  c #ff5804",
+"Xc  c #ff6304",
+"Xd  c #ff7201",
+"Xe  c #f1f8fd",
+"Xf  c #f3f9fe",
+"Xg  c #464646",
+"Xh  c #606160",
+"Xi  c #d2eafb",
+"Xj  c #dceefb",
+"Xk  c #e9d2cb",
+"Xl  c #f6fbfe",
+"Xm  c #eff9fe",
+"Xn  c #403f3f",
+"Xo  c #585857",
+"Xp  c #d4edfd",
+"Xq  c #e5f2fc",
+"Xr  c #eef6fd",
+"Xs  c #f2f8fe",
+"Xt  c #f2f9fe",
+"Xu  c #f4f9fe",
+"Xv  c #f5fafe",
+"Xw  c #f6fafe",
+"Xx  c #e6f6fe",
+"Xy  c #393939",
+"Xz  c #002843",
+"X!  c #81c2ef",
+"X@  c #38a6f4",
+"X$  c #2ca7f3",
+"X^  c #1fa2f2",
+"X&  c #129def",
+"X(  c #0898ee",
+"X)  c #0090ea",
+"X-  c #0088e5",
+"X+  c #007dde",
+"X/  c #0074d7",
+"X<  c #006ed2",
+"X>  c #0059b8",
+"X,  c #0057b4",
+"X:  c #6ea7dc",
+"=X  c #001225",
+"=*  c #000b13",
+"=#  c #003674",
+"=%  c #6eacde",
+"=1  c #65a8db",
+"=2  c #559dd5",
+"=3  c #4692cf",
+"=4  c #3b88c8",
+"=5  c #347ec3",
+"=6  c #3277bd",
+"=7  c #3677bc",
+"=8  c #427ebf",
+"=9  c #528ac6",
+"=0  c #6399ce",
+"=A  c #6ea1d3",
+"=B  c #002961",
+"=C  c #00080d",
+"=D  c #999999",
+"=E  c #000a11",
+"=F  c #000a10",
+"=G  c #000910",
+"=H  c #00090f",
+"=I  c #00080e",
+"XX==================**##%%1122XX",
+"==334455667788998800AABBCCDDEEFF",
+"==44GGGGGGGGHHIIJJHHKKLLMMNNOOPP",
+"QQCCGGRRSSTTUUVVVVWWYYZZaabbccdd",
+"eeffgghhiijjkkGGGGllmmnnooppqqrr",
+"ssttuuvvwwxxyyGGGGzz!!@@$$^^&&((",
+"))--vv++jjWW//GGGG<<>>mm,,::X=X*",
+"X#X%X1X2X3zzX4GGGGX4zzX5X6X7X8X9",
+"X0XAXBjj!!XCzzX4X4zzzzXDjjXEXFXG",
+"XHXIXJ>>XKXLXMGGGGXNXLXOXPXQXRXS",
+"XTXUXVXWXYXZXaGGGGXbXcXdXWXeXfXg",
+"XhXiXjXkXWXWXWXWXWXWXWXWTTXlXmXn",
+"XoXpXqXrXeXeXsXsXsXtXuXvXwSSXxXy",
+"XzX!X@X$X^X&X(X)X-X+X/X<X>X,X:=X",
+"=*=#=%=1=2=3=4=5=6=7=8=9=0=A=B=C",
+"=D=E=F=G=G=H=H=I=I=I=C=C=C=C=C=D"
+};
+String1=0x19,опасность
+String2=0x04,hazard
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0033f0)=0x004a90
+Type=0x066
+SubType=0x01
+XPM="16 16 3 2",
+"XX  c #000000",
+"==  c #e6e6e6",
+"**  c #393020",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXX========XXXXXXXXXXXX",
+"XXXXXXXXXX==********==XXXXXXXXXX",
+"XXXXXXXX==************==XXXXXXXX",
+"XXXXXXXX==**====******==XXXXXXXX",
+"XXXXXX==**==****==******==XXXXXX",
+"XXXXXX==**==****==******==XXXXXX",
+"XXXX==**==********==******==XXXX",
+"====****==********==********====",
+"********==********==************",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,пещера
+String2=0x04,cave
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00344f)=0x004aef
+Type=0x066
+SubType=0x07
+XPM="13 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"XXXXXXXX==XXXXXXXXXXXXXXXX",
+"XXXXXX==**==XXXXXXXXXXXXXX",
+"XXXXXX==****==XXXXXXXXXXXX",
+"XXXX==******==XX==XXXXXXXX",
+"XXXX==******====**==XXXXXX",
+"XX==********==******==XXXX",
+"XX==****************==XXXX",
+"XX==******************==XX",
+"==********************==XX",
+"==********************==XX",
+"==**********************==",
+"XX======================XX"
+};
+String1=0x19,обрыв
+String2=0x04,cliff
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00349e)=0x004b3e
+Type=0x066
+SubType=0x0f
+XPM="11 11 4 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #ff0000",
+"##  c #ffffff",
+"XXXXXX==========XXXXXX",
+"XXXX==**********==XXXX",
+"XX==**************==XX",
+"==******************==",
+"==******************==",
+"==**##############**==",
+"==******************==",
+"==******************==",
+"XX==**************==XX",
+"XXXX==**********==XXXX",
+"XXXXXX==========XXXXXX"
+};
+String1=0x19,преграда
+String2=0x04,barrier
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x003508)=0x004ba8
+Type=0x115
+SubType=0x02
+DayXPM="13 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"XXXXXXXXXX==XX==XXXXXXXXXX",
+"XXXXXXXX==**==**==XXXXXXXX",
+"XXXXXX======**======XXXXXX",
+"XXXX==**====**====**==XXXX",
+"XX==**==**======**==**==XX",
+"XX==**====**==**====**==XX",
+"XXXX======**==**======XXXX",
+"XX==****====**====****==XX",
+"==**====**==**==**====**==",
+"==**==XX==******==XX==**==",
+"XX==XXXX==******==XXXX==XX",
+"XXXXXXXXXX======XXXXXXXXXX"
+};
+NightXPM="13 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0000ff",
+"XXXXXXXXXX==XX==XXXXXXXXXX",
+"XXXXXXXX==**==**==XXXXXXXX",
+"XXXXXX======**======XXXXXX",
+"XXXX==**====**====**==XXXX",
+"XX==**==**======**==**==XX",
+"XX==**====**==**====**==XX",
+"XXXX======**==**======XXXX",
+"XX==****====**====****==XX",
+"==**====**==**==**====**==",
+"==**==XX==******==XX==**==",
+"XX==XXXX==******==XXXX==XX",
+"XXXXXXXXXX======XXXXXXXXXX"
+};
+String1=0x19,фонтан
+String2=0x04,fountain
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x003599)=0x004c39
+Type=0x115
+SubType=0x11
+XPM="16 13 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #0d0e11",
+"##  c #f8ec38",
+"XX============================XX",
+"====************************====",
+"==**########################**==",
+"==**########################**==",
+"==**########********########**==",
+"==**######************######**==",
+"==**######****####****######**==",
+"==**##******########******##**==",
+"==**##******########******##**==",
+"==**########################**==",
+"==**########################**==",
+"====************************====",
+"XX============================XX"
+};
+String1=0x19,лежачий полицейский
+String2=0x04,bump
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  01                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x003631)=0x004cd1
+Type=0x116
+SubType=0x01
+XPM="16 16 12 2",
+"XX  c #000000",
+"==  c #030303",
+"**  c #ffffff",
+"##  c #b5bab5",
+"%%  c #7bcb6b",
+"11  c #006521",
+"22  c #7bcbd6",
+"33  c #7bcbff",
+"44  c #949694",
+"55  c #ff9611",
+"66  c #ff0000",
+"77  c #2e2a27",
+"XXXX========================XXXX",
+"XX==******##******##********==XX",
+"==******%%%%%%%%%%%%%%********==",
+"==****%%111111**111111%%******==",
+"==****111111111111111111******==",
+"==****112233334433223311******==",
+"==****113333334433333311******==",
+"==****111111111111111111******==",
+"==****111111111111111111******==",
+"==****555555555555555555******==",
+"==****11**1111661111**11******==",
+"==****111111111111111111444444==",
+"==****%%11%%11%%11%%11%%**4444==",
+"==******77777777777777****4444==",
+"XX==**7777**********7777**44==XX",
+"XXXX========================XXXX"
+};
+String1=0x19,ж/д станция
+String2=0x04,railroad station
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x003700)=0x004da0
+Type=0x116
+SubType=0x02
+DayXPM="15 16 5 2",
+"XX  c #000000",
+"==  c #000100",
+"**  c #ffca00",
+"##  c #ffff6a",
+"%%  c #ff9500",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXX******XXXXXXXXXXXX",
+"XXXXXXXXXX**####****XXXXXXXXXX",
+"XXXXXXXX**####********XXXXXXXX",
+"XXXX****####********%%****XXXX",
+"XX**######**##********%%%%**XX",
+"**########**********%%**%%%%**",
+"########**##******%%**%%%%%%%%",
+"**######************%%%%**%%%%",
+"**####**********%%%%%%%%%%%%%%",
+"XX****************%%%%%%%%%%XX",
+"XXXX****%%**%%%%%%%%%%%%%%XXXX"
+};
+NightXPM="15 16 4 2",
+"XX  c #000000",
+"==  c #ffca00",
+"**  c #ffff6a",
+"##  c #ff9500",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXX==========XXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXX==XXXXXXXXXXXXXX",
+"XXXXXXXXXXXX======XXXXXXXXXXXX",
+"XXXXXXXXXX==****====XXXXXXXXXX",
+"XXXXXXXX==****========XXXXXXXX",
+"XXXX====****========##====XXXX",
+"XX==******==**========####==XX",
+"==********==========##==####==",
+"********==**======##==########",
+"==******============####==####",
+"==****==========##############",
+"XX================##########XX",
+"XXXX====##==##############XXXX"
+};
+String1=0x19,храм
+String2=0x04,church
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  1A 00 80 FF 00 80 FF                               .......
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00383d)=0x004edd
+Type=0x116
+SubType=0x03
+XPM="12 12 3 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #330099",
+"XXXX==========XXXXXXXXXX",
+"XX==**********==XXXXXXXX",
+"==****======****==XXXXXX",
+"==****======******==XXXX",
+"==****======****==**==XX",
+"==**************==**==XX",
+"==**************==**==XX",
+"==**************==**==XX",
+"==**************====**==",
+"==**************====**==",
+"==******************==XX",
+"XX==================XXXX"
+};
+String1=0x19,АЗС
+String2=0x04,fuel
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+; additional block with colors:
+; 00000000  02                                                 .
+; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00387e)=0x004f1e
+Type=0x116
+SubType=0x04
+XPM="16 16 7 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #993300",
+"##  c #cc6633",
+"%%  c #663300",
+"11  c #996633",
+"22  c #ff9900",
+"XXXXXXXX==XXXXXXXXXXXX==XXXXXXXX",
+"XXXXXX==**==XXXXXXXX==**==XXXXXX",
+"XXXX==******==XXXX==******==XXXX",
+"XX==**********====**********==XX",
+"XX==****##****====****##****==XX",
+"XXXX==%%11%%==XXXX==%%11%%==XXXX",
+"XXXX==%%2211111111111122%%==XXXX",
+"XXXX==%%2222222222222222%%==XXXX",
+"XXXX==%%22##22%%%%22##22%%==XXXX",
+"XXXX==%%2222%%====%%2222%%==XXXX",
+"XXXX==%%2222%%====%%2222%%==XXXX",
+"XXXX==%%%%%%%%====%%%%%%%%==XXXX",
+"XXXXXX========XXXX========XXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+};
+String1=0x19,замок
+String2=0x04,castle
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x00392c)=0x004fcc
+Type=0x116
+SubType=0x05
+XPM="16 16 4 2",
+"XX  c #000000",
+"==  c #ffffff",
+"**  c #000000",
+"##  c #396520",
+"XXXXXXXXXX====XXXXXXXXXXXXXXXXXX",
+"XXXXXXXX==****==XXXXXXXXXXXXXXXX",
+"XXXXXX====****==XXXXXXXXXXXXXXXX",
+"XXXX==********==XXXXXXXXXXXXXXXX",
+"XXXX==********==XXXXXXXXXXXXXXXX",
+"XXXX==**********==XXXXXXXXXXXXXX",
+"XXXX==**********==XXXX======XXXX",
+"XXXX==********==XXXX==******==XX",
+"XXXX==******====XXXX==********==",
+"XXXX==**********==XX==********==",
+"XX==************==XX==********==",
+"XX==**************==**********==",
+"XX==**************************==",
+"==############################==",
+"==############################==",
+"XX============================XX"
+};
+String1=0x19,руины
+String2=0x04,ruins
+[end]
+
+[_point]
+; Originally @(0x0016a0+0x0039ce)=0x00506e
+Type=0x2f0
+SubType=0x0d
+XPM="16 16 21 2",
+"XX  c #000000",
+"==  c #000000",
+"**  c #000000",
+"##  c #000000",
+"%%  c #000000",
+"11  c #000000",
+"22  c #000000",
+"33  c #000000",
+"44  c #000000",
+"55  c #000000",
+"66  c #000000",
+"77  c #000000",
+"88  c #000000",
+"99  c #202020",
+"00  c #505050",
+"AA  c #6f6f6f",
+"BB  c #808080",
+"CC  c #cfcfcf",
+"DD  c #efefef",
+"EE  c #ffffff",
+"FF  c #707070",
+"XXXXXXXX==**##%%%%##**==XXXXXXXX",
+"XXXX112233445566665544332211XXXX",
+"XX1177885566666666666655887711XX",
+"XX2288666666666666666666668822XX",
+"==335566669900AAAA009966665533==",
+"**44666699BBCCDDDDCCBB99666644**",
+"##55666600CC66EEEE66CC00666655##",
+"%%666666AADDEEEEEEEEDDAA666666%%",
+"%%666666AADDEEEEEEEEDDAA666666%%",
+"##55666600CC66EEEE66CC00666655##",
+"**44666699BBCCDDDDCCBB99666644**",
+"==335566669900FFFF009966665533==",
+"XX2288666666666666666666668822XX",
+"XX1177885566666666666655887711XX",
+"XXXX112233445566665544332211XXXX",
+"XXXXXXXX==**##%%%%##**==XXXXXXXX"
+};
+String1=0x19,шиномонтаж
+String2=0x04,tyre service
+[end]
+
+
+; --------------------------------------------------------------------------
+; start of NT1point collection
+; --------------------------------------------------------------------------
+

@@ -23,11 +23,12 @@ OSM_IMG		:= $(CACHE_OSM)/$(OSMBOX).img
 MAX_NODES	:= 1000000
 
 $(GMAPSUPP_IMG): $(TOPO_IMG) $(OSM_IMG) 
-	gmt -j -o $(GMAPSUPP_IMG) $(TOPO_IMG) $(OSM_IMG)
+	gmt -j -o $(GMAPSUPP_IMG) $(TOPO_IMG) $(OSM_IMG) styles/M00001ea.TYP
 #	mkgmap --gmapsupp $(TOPO_IMG) $(OSM_IMG)
 #	mv gmapsupp.img $(GMAPSUPP_IMG)
 
 $(TOPO_SRC):
+	echo "getting $(TOPO_SRC)"
 	mkdir -p $(CACHE_TOPO)
 	phyghtmap \
 	  -a $(lon):$(lat):$(LON):$(LAT) \
@@ -60,6 +61,8 @@ $(TOPO_ARGS): $(TOPO_SRC)
 $(TOPO_IMG): $(TOPO_ARGS)
 	mkgmap \
 	  --code-page=1251 \
+	  --product-id=1 \
+	  --family-id=490 \
 	  --style-file=styles \
 	  --style=mapdd \
 	  --tdbfile \
@@ -72,6 +75,7 @@ $(TOPO_IMG): $(TOPO_ARGS)
 	mv $(CACHE_TOPO)/gmapsupp.img $(TOPO_IMG)
 
 $(OSM_SRC):
+	echo "getting $(OSM_SRC)"
 	mkdir -p $(CACHE_OSM)
 	osmdump \
 	  -b $(lon):$(lat):$(LON):$(LAT) \
@@ -94,6 +98,8 @@ $(OSM_ARGS): $(OSM_SRC)
 $(OSM_IMG): $(OSM_ARGS)
 	mkgmap \
 	  --code-page=1251 \
+	  --product-id=1 \
+	  --family-id=490 \
 	  --style-file=styles \
 	  --style=mapdd \
 	  -n 2 \
